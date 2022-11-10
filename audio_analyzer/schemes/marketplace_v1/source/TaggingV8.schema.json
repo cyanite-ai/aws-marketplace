@@ -1,0 +1,6800 @@
+{
+  "$defs": {
+    "AudioFileInfoV1": {
+      "properties": {
+        "duration": {
+          "title": "Duration",
+          "type": "number"
+        },
+        "fileSizeB": {
+          "title": "Filesizeb",
+          "type": "integer"
+        },
+        "bitrate": {
+          "title": "Bitrate",
+          "type": "integer"
+        },
+        "samplerate": {
+          "title": "Samplerate",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "duration",
+        "fileSizeB",
+        "bitrate",
+        "samplerate"
+      ],
+      "title": "AudioFileInfoV1",
+      "type": "object"
+    },
+    "AutoDescriptionV2": {
+      "properties": {
+        "description": {
+          "title": "Description",
+          "type": "string"
+        }
+      },
+      "required": [
+        "description"
+      ],
+      "title": "AutoDescriptionV2",
+      "type": "object"
+    },
+    "BpmV1": {
+      "properties": {
+        "segments": {
+          "items": {
+            "maximum": 285,
+            "minimum": 30,
+            "type": "integer"
+          },
+          "title": "Segments",
+          "type": "array"
+        },
+        "segmentsRange": {
+          "items": {
+            "maximum": 180,
+            "minimum": 60,
+            "type": "integer"
+          },
+          "title": "Segmentsrange",
+          "type": "array"
+        },
+        "tag": {
+          "maximum": 285,
+          "minimum": 30,
+          "title": "Tag",
+          "type": "integer"
+        },
+        "tagRange": {
+          "maximum": 180,
+          "minimum": 60,
+          "title": "Tagrange",
+          "type": "integer"
+        },
+        "confidence": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Confidence",
+          "type": "number"
+        }
+      },
+      "required": [
+        "segments",
+        "segmentsRange",
+        "tag",
+        "tagRange",
+        "confidence"
+      ],
+      "title": "BpmV1",
+      "type": "object"
+    },
+    "CharacterScoresV1": {
+      "properties": {
+        "bold": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Bold",
+          "type": "number"
+        },
+        "cool": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Cool",
+          "type": "number"
+        },
+        "epic": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Epic",
+          "type": "number"
+        },
+        "ethereal": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Ethereal",
+          "type": "number"
+        },
+        "heroic": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Heroic",
+          "type": "number"
+        },
+        "luxurious": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Luxurious",
+          "type": "number"
+        },
+        "magical": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Magical",
+          "type": "number"
+        },
+        "mysterious": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Mysterious",
+          "type": "number"
+        },
+        "playful": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Playful",
+          "type": "number"
+        },
+        "powerful": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Powerful",
+          "type": "number"
+        },
+        "retro": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Retro",
+          "type": "number"
+        },
+        "sophisticated": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Sophisticated",
+          "type": "number"
+        },
+        "sparkling": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Sparkling",
+          "type": "number"
+        },
+        "sparse": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Sparse",
+          "type": "number"
+        },
+        "unpolished": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Unpolished",
+          "type": "number"
+        },
+        "warm": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Warm",
+          "type": "number"
+        }
+      },
+      "required": [
+        "bold",
+        "cool",
+        "epic",
+        "ethereal",
+        "heroic",
+        "luxurious",
+        "magical",
+        "mysterious",
+        "playful",
+        "powerful",
+        "retro",
+        "sophisticated",
+        "sparkling",
+        "sparse",
+        "unpolished",
+        "warm"
+      ],
+      "title": "CharacterScoresV1",
+      "type": "object"
+    },
+    "CharacterSegmentsV1": {
+      "properties": {
+        "bold": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Bold",
+          "type": "array"
+        },
+        "cool": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Cool",
+          "type": "array"
+        },
+        "epic": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Epic",
+          "type": "array"
+        },
+        "ethereal": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Ethereal",
+          "type": "array"
+        },
+        "heroic": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Heroic",
+          "type": "array"
+        },
+        "luxurious": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Luxurious",
+          "type": "array"
+        },
+        "magical": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Magical",
+          "type": "array"
+        },
+        "mysterious": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Mysterious",
+          "type": "array"
+        },
+        "playful": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Playful",
+          "type": "array"
+        },
+        "powerful": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Powerful",
+          "type": "array"
+        },
+        "retro": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Retro",
+          "type": "array"
+        },
+        "sophisticated": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Sophisticated",
+          "type": "array"
+        },
+        "sparkling": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Sparkling",
+          "type": "array"
+        },
+        "sparse": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Sparse",
+          "type": "array"
+        },
+        "unpolished": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Unpolished",
+          "type": "array"
+        },
+        "warm": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Warm",
+          "type": "array"
+        }
+      },
+      "required": [
+        "bold",
+        "cool",
+        "epic",
+        "ethereal",
+        "heroic",
+        "luxurious",
+        "magical",
+        "mysterious",
+        "playful",
+        "powerful",
+        "retro",
+        "sophisticated",
+        "sparkling",
+        "sparse",
+        "unpolished",
+        "warm"
+      ],
+      "title": "CharacterSegmentsV1",
+      "type": "object"
+    },
+    "CharacterTagsV1": {
+      "enum": [
+        "bold",
+        "cool",
+        "epic",
+        "ethereal",
+        "heroic",
+        "luxurious",
+        "magical",
+        "mysterious",
+        "playful",
+        "powerful",
+        "retro",
+        "sophisticated",
+        "sparkling",
+        "sparse",
+        "unpolished",
+        "warm"
+      ],
+      "title": "CharacterTagsV1",
+      "type": "string"
+    },
+    "CharacterV1": {
+      "properties": {
+        "segments": {
+          "$ref": "#/$defs/CharacterSegmentsV1"
+        },
+        "scores": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/CharacterScoresV1"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "tags": {
+          "anyOf": [
+            {
+              "items": {
+                "$ref": "#/$defs/CharacterTagsV1"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Tags"
+        }
+      },
+      "required": [
+        "segments",
+        "scores",
+        "tags"
+      ],
+      "title": "CharacterV1",
+      "type": "object"
+    },
+    "EmotionChangesTagsV1": {
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "title": "EmotionChangesTagsV1",
+      "type": "string"
+    },
+    "EmotionProfileTagsV1": {
+      "enum": [
+        "negative",
+        "neutral",
+        "positive",
+        "varying"
+      ],
+      "title": "EmotionProfileTagsV1",
+      "type": "string"
+    },
+    "EnergyChangesTagsV1": {
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "title": "EnergyChangesTagsV1",
+      "type": "string"
+    },
+    "EnergyLevelTagsV1": {
+      "enum": [
+        "low",
+        "medium",
+        "high",
+        "varying"
+      ],
+      "title": "EnergyLevelTagsV1",
+      "type": "string"
+    },
+    "FreeGenreV2": {
+      "properties": {
+        "tags": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Tags",
+          "type": "array"
+        }
+      },
+      "required": [
+        "tags"
+      ],
+      "title": "FreeGenreV2",
+      "type": "object"
+    },
+    "InstrumentPresenceV1": {
+      "properties": {
+        "accordion": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "acousticGuitar": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "africanPercussion": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "asianFlute": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "asianStrings": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "banjo": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "bassGuitar": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "bells": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "bongoConga": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "brass": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "celeste": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "cello": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "clarinet": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "doubleBass": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "drumKit": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "electricGuitar": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "electricOrgan": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "electricPiano": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "electronicDrums": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "flute": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "frenchHorn": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "harp": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "harpsichord": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "luteOud": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "mandolin": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "marimba": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "oboe": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "churchOrgan": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "piano": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "pizzicato": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "saxophone": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "sitar": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "steelDrums": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "strings": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "synth": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "tabla": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "taiko": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "trumpet": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "tuba": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "ukulele": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "vibraphone": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "violin": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "woodwinds": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "glockenspiel": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "percussion": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        },
+        "bass": {
+          "$ref": "#/$defs/PresenceTagsV1"
+        }
+      },
+      "required": [
+        "accordion",
+        "acousticGuitar",
+        "africanPercussion",
+        "asianFlute",
+        "asianStrings",
+        "banjo",
+        "bassGuitar",
+        "bells",
+        "bongoConga",
+        "brass",
+        "celeste",
+        "cello",
+        "clarinet",
+        "doubleBass",
+        "drumKit",
+        "electricGuitar",
+        "electricOrgan",
+        "electricPiano",
+        "electronicDrums",
+        "flute",
+        "frenchHorn",
+        "harp",
+        "harpsichord",
+        "luteOud",
+        "mandolin",
+        "marimba",
+        "oboe",
+        "churchOrgan",
+        "piano",
+        "pizzicato",
+        "saxophone",
+        "sitar",
+        "steelDrums",
+        "strings",
+        "synth",
+        "tabla",
+        "taiko",
+        "trumpet",
+        "tuba",
+        "ukulele",
+        "vibraphone",
+        "violin",
+        "woodwinds",
+        "glockenspiel",
+        "percussion",
+        "bass"
+      ],
+      "title": "InstrumentPresenceV1",
+      "type": "object"
+    },
+    "InstrumentSegmentsV1": {
+      "properties": {
+        "accordion": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Accordion",
+          "type": "array"
+        },
+        "acousticGuitar": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Acousticguitar",
+          "type": "array"
+        },
+        "africanPercussion": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Africanpercussion",
+          "type": "array"
+        },
+        "asianFlute": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Asianflute",
+          "type": "array"
+        },
+        "asianStrings": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Asianstrings",
+          "type": "array"
+        },
+        "banjo": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Banjo",
+          "type": "array"
+        },
+        "bassGuitar": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Bassguitar",
+          "type": "array"
+        },
+        "bells": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Bells",
+          "type": "array"
+        },
+        "bongoConga": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Bongoconga",
+          "type": "array"
+        },
+        "brass": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Brass",
+          "type": "array"
+        },
+        "celeste": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Celeste",
+          "type": "array"
+        },
+        "cello": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Cello",
+          "type": "array"
+        },
+        "clarinet": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Clarinet",
+          "type": "array"
+        },
+        "doubleBass": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Doublebass",
+          "type": "array"
+        },
+        "drumKit": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Drumkit",
+          "type": "array"
+        },
+        "electricGuitar": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Electricguitar",
+          "type": "array"
+        },
+        "electricOrgan": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Electricorgan",
+          "type": "array"
+        },
+        "electricPiano": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Electricpiano",
+          "type": "array"
+        },
+        "electronicDrums": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Electronicdrums",
+          "type": "array"
+        },
+        "flute": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Flute",
+          "type": "array"
+        },
+        "frenchHorn": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Frenchhorn",
+          "type": "array"
+        },
+        "harp": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Harp",
+          "type": "array"
+        },
+        "harpsichord": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Harpsichord",
+          "type": "array"
+        },
+        "luteOud": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Luteoud",
+          "type": "array"
+        },
+        "mandolin": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Mandolin",
+          "type": "array"
+        },
+        "marimba": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Marimba",
+          "type": "array"
+        },
+        "oboe": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Oboe",
+          "type": "array"
+        },
+        "churchOrgan": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Churchorgan",
+          "type": "array"
+        },
+        "piano": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Piano",
+          "type": "array"
+        },
+        "pizzicato": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Pizzicato",
+          "type": "array"
+        },
+        "saxophone": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Saxophone",
+          "type": "array"
+        },
+        "sitar": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Sitar",
+          "type": "array"
+        },
+        "steelDrums": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Steeldrums",
+          "type": "array"
+        },
+        "strings": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Strings",
+          "type": "array"
+        },
+        "synth": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Synth",
+          "type": "array"
+        },
+        "tabla": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Tabla",
+          "type": "array"
+        },
+        "taiko": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Taiko",
+          "type": "array"
+        },
+        "trumpet": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Trumpet",
+          "type": "array"
+        },
+        "tuba": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Tuba",
+          "type": "array"
+        },
+        "ukulele": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Ukulele",
+          "type": "array"
+        },
+        "vibraphone": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Vibraphone",
+          "type": "array"
+        },
+        "violin": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Violin",
+          "type": "array"
+        },
+        "woodwinds": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Woodwinds",
+          "type": "array"
+        },
+        "glockenspiel": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Glockenspiel",
+          "type": "array"
+        },
+        "percussion": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Percussion",
+          "type": "array"
+        },
+        "bass": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Bass",
+          "type": "array"
+        }
+      },
+      "required": [
+        "accordion",
+        "acousticGuitar",
+        "africanPercussion",
+        "asianFlute",
+        "asianStrings",
+        "banjo",
+        "bassGuitar",
+        "bells",
+        "bongoConga",
+        "brass",
+        "celeste",
+        "cello",
+        "clarinet",
+        "doubleBass",
+        "drumKit",
+        "electricGuitar",
+        "electricOrgan",
+        "electricPiano",
+        "electronicDrums",
+        "flute",
+        "frenchHorn",
+        "harp",
+        "harpsichord",
+        "luteOud",
+        "mandolin",
+        "marimba",
+        "oboe",
+        "churchOrgan",
+        "piano",
+        "pizzicato",
+        "saxophone",
+        "sitar",
+        "steelDrums",
+        "strings",
+        "synth",
+        "tabla",
+        "taiko",
+        "trumpet",
+        "tuba",
+        "ukulele",
+        "vibraphone",
+        "violin",
+        "woodwinds",
+        "glockenspiel",
+        "percussion",
+        "bass"
+      ],
+      "title": "InstrumentSegmentsV1",
+      "type": "object"
+    },
+    "InstrumentTagsV1": {
+      "enum": [
+        "accordion",
+        "acousticGuitar",
+        "africanPercussion",
+        "asianFlute",
+        "asianStrings",
+        "banjo",
+        "bassGuitar",
+        "bells",
+        "bongoConga",
+        "brass",
+        "celeste",
+        "cello",
+        "clarinet",
+        "doubleBass",
+        "drumKit",
+        "electricGuitar",
+        "electricOrgan",
+        "electricPiano",
+        "electronicDrums",
+        "flute",
+        "frenchHorn",
+        "harp",
+        "harpsichord",
+        "luteOud",
+        "mandolin",
+        "marimba",
+        "oboe",
+        "churchOrgan",
+        "piano",
+        "pizzicato",
+        "saxophone",
+        "sitar",
+        "steelDrums",
+        "strings",
+        "synth",
+        "tabla",
+        "taiko",
+        "trumpet",
+        "tuba",
+        "ukulele",
+        "vibraphone",
+        "violin",
+        "woodwinds",
+        "glockenspiel",
+        "percussion",
+        "bass"
+      ],
+      "title": "InstrumentTagsV1",
+      "type": "string"
+    },
+    "InstrumentV1": {
+      "additionalProperties": false,
+      "properties": {
+        "segments": {
+          "$ref": "#/$defs/InstrumentSegmentsV1"
+        },
+        "presence": {
+          "$ref": "#/$defs/InstrumentPresenceV1"
+        },
+        "tags": {
+          "items": {
+            "$ref": "#/$defs/InstrumentTagsV1"
+          },
+          "title": "Tags",
+          "type": "array"
+        }
+      },
+      "required": [
+        "segments",
+        "presence",
+        "tags"
+      ],
+      "title": "InstrumentV1",
+      "type": "object"
+    },
+    "KeyTagsV1": {
+      "enum": [
+        "aMajor",
+        "aMinor",
+        "bMajor",
+        "bMinor",
+        "bFlatMajor",
+        "bFlatMinor",
+        "cMajor",
+        "cMinor",
+        "dFlatMajor",
+        "cSharpMinor",
+        "dMajor",
+        "dMinor",
+        "eFlatMajor",
+        "dSharpMinor",
+        "eMajor",
+        "eMinor",
+        "fMajor",
+        "fMinor",
+        "fSharpMajor",
+        "fSharpMinor",
+        "gMajor",
+        "gMinor",
+        "aFlatMajor",
+        "gSharpMinor"
+      ],
+      "title": "KeyTagsV1",
+      "type": "string"
+    },
+    "KeyV1": {
+      "properties": {
+        "segments": {
+          "items": {
+            "$ref": "#/$defs/KeyTagsV1"
+          },
+          "title": "Segments",
+          "type": "array"
+        },
+        "tag": {
+          "$ref": "#/$defs/KeyTagsV1"
+        },
+        "confidence": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Confidence",
+          "type": "number"
+        }
+      },
+      "required": [
+        "segments",
+        "tag",
+        "confidence"
+      ],
+      "title": "KeyV1",
+      "type": "object"
+    },
+    "MaingenreScoresV1": {
+      "properties": {
+        "african": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "African",
+          "type": "number"
+        },
+        "ambient": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Ambient",
+          "type": "number"
+        },
+        "middleEastern": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Middleeastern",
+          "type": "number"
+        },
+        "asian": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Asian",
+          "type": "number"
+        },
+        "blues": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Blues",
+          "type": "number"
+        },
+        "childrenJingle": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Childrenjingle",
+          "type": "number"
+        },
+        "classical": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Classical",
+          "type": "number"
+        },
+        "electronic": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Electronic",
+          "type": "number"
+        },
+        "folkCountry": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Folkcountry",
+          "type": "number"
+        },
+        "funkSoul": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Funksoul",
+          "type": "number"
+        },
+        "indian": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Indian",
+          "type": "number"
+        },
+        "jazz": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Jazz",
+          "type": "number"
+        },
+        "latin": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Latin",
+          "type": "number"
+        },
+        "metal": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Metal",
+          "type": "number"
+        },
+        "pop": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Pop",
+          "type": "number"
+        },
+        "rapHipHop": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Raphiphop",
+          "type": "number"
+        },
+        "reggae": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Reggae",
+          "type": "number"
+        },
+        "rnb": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Rnb",
+          "type": "number"
+        },
+        "rock": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Rock",
+          "type": "number"
+        },
+        "singerSongwriter": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Singersongwriter",
+          "type": "number"
+        },
+        "sound": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Sound",
+          "type": "number"
+        },
+        "soundtrack": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Soundtrack",
+          "type": "number"
+        },
+        "spokenWord": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Spokenword",
+          "type": "number"
+        }
+      },
+      "required": [
+        "african",
+        "ambient",
+        "middleEastern",
+        "asian",
+        "blues",
+        "childrenJingle",
+        "classical",
+        "electronic",
+        "folkCountry",
+        "funkSoul",
+        "indian",
+        "jazz",
+        "latin",
+        "metal",
+        "pop",
+        "rapHipHop",
+        "reggae",
+        "rnb",
+        "rock",
+        "singerSongwriter",
+        "sound",
+        "soundtrack",
+        "spokenWord"
+      ],
+      "title": "MaingenreScoresV1",
+      "type": "object"
+    },
+    "MaingenreSegmentsV1": {
+      "properties": {
+        "african": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "African",
+          "type": "array"
+        },
+        "ambient": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Ambient",
+          "type": "array"
+        },
+        "middleEastern": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Middleeastern",
+          "type": "array"
+        },
+        "asian": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Asian",
+          "type": "array"
+        },
+        "blues": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Blues",
+          "type": "array"
+        },
+        "childrenJingle": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Childrenjingle",
+          "type": "array"
+        },
+        "classical": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Classical",
+          "type": "array"
+        },
+        "electronic": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Electronic",
+          "type": "array"
+        },
+        "folkCountry": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Folkcountry",
+          "type": "array"
+        },
+        "funkSoul": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Funksoul",
+          "type": "array"
+        },
+        "indian": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Indian",
+          "type": "array"
+        },
+        "jazz": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Jazz",
+          "type": "array"
+        },
+        "latin": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Latin",
+          "type": "array"
+        },
+        "metal": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Metal",
+          "type": "array"
+        },
+        "pop": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Pop",
+          "type": "array"
+        },
+        "rapHipHop": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Raphiphop",
+          "type": "array"
+        },
+        "reggae": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Reggae",
+          "type": "array"
+        },
+        "rnb": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Rnb",
+          "type": "array"
+        },
+        "rock": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Rock",
+          "type": "array"
+        },
+        "singerSongwriter": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Singersongwriter",
+          "type": "array"
+        },
+        "sound": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Sound",
+          "type": "array"
+        },
+        "soundtrack": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Soundtrack",
+          "type": "array"
+        },
+        "spokenWord": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Spokenword",
+          "type": "array"
+        }
+      },
+      "required": [
+        "african",
+        "ambient",
+        "middleEastern",
+        "asian",
+        "blues",
+        "childrenJingle",
+        "classical",
+        "electronic",
+        "folkCountry",
+        "funkSoul",
+        "indian",
+        "jazz",
+        "latin",
+        "metal",
+        "pop",
+        "rapHipHop",
+        "reggae",
+        "rnb",
+        "rock",
+        "singerSongwriter",
+        "sound",
+        "soundtrack",
+        "spokenWord"
+      ],
+      "title": "MaingenreSegmentsV1",
+      "type": "object"
+    },
+    "MaingenreTagsV1": {
+      "enum": [
+        "african",
+        "ambient",
+        "middleEastern",
+        "asian",
+        "blues",
+        "childrenJingle",
+        "classical",
+        "electronic",
+        "folkCountry",
+        "funkSoul",
+        "indian",
+        "jazz",
+        "latin",
+        "metal",
+        "pop",
+        "rapHipHop",
+        "reggae",
+        "rnb",
+        "rock",
+        "singerSongwriter",
+        "sound",
+        "soundtrack",
+        "spokenWord"
+      ],
+      "title": "MaingenreTagsV1",
+      "type": "string"
+    },
+    "MaingenreV1": {
+      "properties": {
+        "segments": {
+          "$ref": "#/$defs/MaingenreSegmentsV1"
+        },
+        "scores": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/MaingenreScoresV1"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "tags": {
+          "anyOf": [
+            {
+              "items": {
+                "$ref": "#/$defs/MaingenreTagsV1"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Tags"
+        }
+      },
+      "required": [
+        "segments",
+        "scores",
+        "tags"
+      ],
+      "title": "MaingenreV1",
+      "type": "object"
+    },
+    "MoodAdvancedScoresV1": {
+      "properties": {
+        "adventurous": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Adventurous",
+          "type": "number"
+        },
+        "aggressive": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Aggressive",
+          "type": "number"
+        },
+        "agitated": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Agitated",
+          "type": "number"
+        },
+        "angry": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Angry",
+          "type": "number"
+        },
+        "anthemic": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Anthemic",
+          "type": "number"
+        },
+        "anxious": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Anxious",
+          "type": "number"
+        },
+        "aweInspiring": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Aweinspiring",
+          "type": "number"
+        },
+        "barren": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Barren",
+          "type": "number"
+        },
+        "bittersweet": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Bittersweet",
+          "type": "number"
+        },
+        "blue": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Blue",
+          "type": "number"
+        },
+        "boingy": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Boingy",
+          "type": "number"
+        },
+        "boisterous": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Boisterous",
+          "type": "number"
+        },
+        "bright": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Bright",
+          "type": "number"
+        },
+        "calm": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Calm",
+          "type": "number"
+        },
+        "celebratory": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Celebratory",
+          "type": "number"
+        },
+        "cheerful": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Cheerful",
+          "type": "number"
+        },
+        "cold": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Cold",
+          "type": "number"
+        },
+        "comedic": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Comedic",
+          "type": "number"
+        },
+        "concerned": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Concerned",
+          "type": "number"
+        },
+        "confident": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Confident",
+          "type": "number"
+        },
+        "contented": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Contented",
+          "type": "number"
+        },
+        "cool": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Cool",
+          "type": "number"
+        },
+        "courageous": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Courageous",
+          "type": "number"
+        },
+        "creepy": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Creepy",
+          "type": "number"
+        },
+        "dangerous": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Dangerous",
+          "type": "number"
+        },
+        "dark": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Dark",
+          "type": "number"
+        },
+        "delicate": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Delicate",
+          "type": "number"
+        },
+        "depressing": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Depressing",
+          "type": "number"
+        },
+        "determined": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Determined",
+          "type": "number"
+        },
+        "dignified": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Dignified",
+          "type": "number"
+        },
+        "disturbing": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Disturbing",
+          "type": "number"
+        },
+        "dreamy": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Dreamy",
+          "type": "number"
+        },
+        "eccentric": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Eccentric",
+          "type": "number"
+        },
+        "eerie": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Eerie",
+          "type": "number"
+        },
+        "emotional": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Emotional",
+          "type": "number"
+        },
+        "energetic": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Energetic",
+          "type": "number"
+        },
+        "epic": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Epic",
+          "type": "number"
+        },
+        "euphoric": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Euphoric",
+          "type": "number"
+        },
+        "evil": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Evil",
+          "type": "number"
+        },
+        "excited": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Excited",
+          "type": "number"
+        },
+        "exciting": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Exciting",
+          "type": "number"
+        },
+        "exhilarating": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Exhilarating",
+          "type": "number"
+        },
+        "fearful": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Fearful",
+          "type": "number"
+        },
+        "feelGood": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Feelgood",
+          "type": "number"
+        },
+        "fiery": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Fiery",
+          "type": "number"
+        },
+        "frightening": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Frightening",
+          "type": "number"
+        },
+        "fun": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Fun",
+          "type": "number"
+        },
+        "funny": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Funny",
+          "type": "number"
+        },
+        "gloomy": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Gloomy",
+          "type": "number"
+        },
+        "graceful": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Graceful",
+          "type": "number"
+        },
+        "happy": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Happy",
+          "type": "number"
+        },
+        "heavy": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Heavy",
+          "type": "number"
+        },
+        "heroic": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Heroic",
+          "type": "number"
+        },
+        "hopeful": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Hopeful",
+          "type": "number"
+        },
+        "horror": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Horror",
+          "type": "number"
+        },
+        "innocent": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Innocent",
+          "type": "number"
+        },
+        "inspirational": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Inspirational",
+          "type": "number"
+        },
+        "intense": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Intense",
+          "type": "number"
+        },
+        "intimate": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Intimate",
+          "type": "number"
+        },
+        "introspective": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Introspective",
+          "type": "number"
+        },
+        "joyous": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Joyous",
+          "type": "number"
+        },
+        "kind": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Kind",
+          "type": "number"
+        },
+        "laidBack": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Laidback",
+          "type": "number"
+        },
+        "leisurely": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Leisurely",
+          "type": "number"
+        },
+        "light": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Light",
+          "type": "number"
+        },
+        "lighthearted": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Lighthearted",
+          "type": "number"
+        },
+        "lonely": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Lonely",
+          "type": "number"
+        },
+        "loving": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Loving",
+          "type": "number"
+        },
+        "lyrical": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Lyrical",
+          "type": "number"
+        },
+        "majestic": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Majestic",
+          "type": "number"
+        },
+        "melancholy": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Melancholy",
+          "type": "number"
+        },
+        "menacing": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Menacing",
+          "type": "number"
+        },
+        "mischievous": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Mischievous",
+          "type": "number"
+        },
+        "motivational": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Motivational",
+          "type": "number"
+        },
+        "mournful": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Mournful",
+          "type": "number"
+        },
+        "mysterious": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Mysterious",
+          "type": "number"
+        },
+        "nervous": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Nervous",
+          "type": "number"
+        },
+        "nightmarish": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Nightmarish",
+          "type": "number"
+        },
+        "noble": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Noble",
+          "type": "number"
+        },
+        "nostalgic": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Nostalgic",
+          "type": "number"
+        },
+        "ominous": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Ominous",
+          "type": "number"
+        },
+        "optimistic": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Optimistic",
+          "type": "number"
+        },
+        "panicStricken": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Panicstricken",
+          "type": "number"
+        },
+        "passionate": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Passionate",
+          "type": "number"
+        },
+        "peaceful": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Peaceful",
+          "type": "number"
+        },
+        "perky": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Perky",
+          "type": "number"
+        },
+        "playful": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Playful",
+          "type": "number"
+        },
+        "poignant": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Poignant",
+          "type": "number"
+        },
+        "ponderous": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Ponderous",
+          "type": "number"
+        },
+        "positive": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Positive",
+          "type": "number"
+        },
+        "powerful": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Powerful",
+          "type": "number"
+        },
+        "prestigious": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Prestigious",
+          "type": "number"
+        },
+        "proud": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Proud",
+          "type": "number"
+        },
+        "quiet": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Quiet",
+          "type": "number"
+        },
+        "quirky": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Quirky",
+          "type": "number"
+        },
+        "reflective": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Reflective",
+          "type": "number"
+        },
+        "relaxed": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Relaxed",
+          "type": "number"
+        },
+        "relentless": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Relentless",
+          "type": "number"
+        },
+        "resolute": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Resolute",
+          "type": "number"
+        },
+        "restless": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Restless",
+          "type": "number"
+        },
+        "rollicking": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Rollicking",
+          "type": "number"
+        },
+        "romantic": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Romantic",
+          "type": "number"
+        },
+        "sad": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Sad",
+          "type": "number"
+        },
+        "scary": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Scary",
+          "type": "number"
+        },
+        "seductive": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Seductive",
+          "type": "number"
+        },
+        "sentimental": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Sentimental",
+          "type": "number"
+        },
+        "serene": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Serene",
+          "type": "number"
+        },
+        "serious": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Serious",
+          "type": "number"
+        },
+        "sexy": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Sexy",
+          "type": "number"
+        },
+        "soaring": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Soaring",
+          "type": "number"
+        },
+        "soft": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Soft",
+          "type": "number"
+        },
+        "solemn": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Solemn",
+          "type": "number"
+        },
+        "soothing": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Soothing",
+          "type": "number"
+        },
+        "spiritual": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Spiritual",
+          "type": "number"
+        },
+        "spooky": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Spooky",
+          "type": "number"
+        },
+        "strange": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Strange",
+          "type": "number"
+        },
+        "strong": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Strong",
+          "type": "number"
+        },
+        "supernatural": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Supernatural",
+          "type": "number"
+        },
+        "suspenseful": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Suspenseful",
+          "type": "number"
+        },
+        "sweet": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Sweet",
+          "type": "number"
+        },
+        "tender": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Tender",
+          "type": "number"
+        },
+        "tense": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Tense",
+          "type": "number"
+        },
+        "thoughtful": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Thoughtful",
+          "type": "number"
+        },
+        "tranquil": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Tranquil",
+          "type": "number"
+        },
+        "triumphant": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Triumphant",
+          "type": "number"
+        },
+        "upbeat": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Upbeat",
+          "type": "number"
+        },
+        "uplifting": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Uplifting",
+          "type": "number"
+        },
+        "victorious": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Victorious",
+          "type": "number"
+        },
+        "violent": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Violent",
+          "type": "number"
+        },
+        "warm": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Warm",
+          "type": "number"
+        },
+        "weird": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Weird",
+          "type": "number"
+        },
+        "whimsical": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Whimsical",
+          "type": "number"
+        }
+      },
+      "required": [
+        "adventurous",
+        "aggressive",
+        "agitated",
+        "angry",
+        "anthemic",
+        "anxious",
+        "aweInspiring",
+        "barren",
+        "bittersweet",
+        "blue",
+        "boingy",
+        "boisterous",
+        "bright",
+        "calm",
+        "celebratory",
+        "cheerful",
+        "cold",
+        "comedic",
+        "concerned",
+        "confident",
+        "contented",
+        "cool",
+        "courageous",
+        "creepy",
+        "dangerous",
+        "dark",
+        "delicate",
+        "depressing",
+        "determined",
+        "dignified",
+        "disturbing",
+        "dreamy",
+        "eccentric",
+        "eerie",
+        "emotional",
+        "energetic",
+        "epic",
+        "euphoric",
+        "evil",
+        "excited",
+        "exciting",
+        "exhilarating",
+        "fearful",
+        "feelGood",
+        "fiery",
+        "frightening",
+        "fun",
+        "funny",
+        "gloomy",
+        "graceful",
+        "happy",
+        "heavy",
+        "heroic",
+        "hopeful",
+        "horror",
+        "innocent",
+        "inspirational",
+        "intense",
+        "intimate",
+        "introspective",
+        "joyous",
+        "kind",
+        "laidBack",
+        "leisurely",
+        "light",
+        "lighthearted",
+        "lonely",
+        "loving",
+        "lyrical",
+        "majestic",
+        "melancholy",
+        "menacing",
+        "mischievous",
+        "motivational",
+        "mournful",
+        "mysterious",
+        "nervous",
+        "nightmarish",
+        "noble",
+        "nostalgic",
+        "ominous",
+        "optimistic",
+        "panicStricken",
+        "passionate",
+        "peaceful",
+        "perky",
+        "playful",
+        "poignant",
+        "ponderous",
+        "positive",
+        "powerful",
+        "prestigious",
+        "proud",
+        "quiet",
+        "quirky",
+        "reflective",
+        "relaxed",
+        "relentless",
+        "resolute",
+        "restless",
+        "rollicking",
+        "romantic",
+        "sad",
+        "scary",
+        "seductive",
+        "sentimental",
+        "serene",
+        "serious",
+        "sexy",
+        "soaring",
+        "soft",
+        "solemn",
+        "soothing",
+        "spiritual",
+        "spooky",
+        "strange",
+        "strong",
+        "supernatural",
+        "suspenseful",
+        "sweet",
+        "tender",
+        "tense",
+        "thoughtful",
+        "tranquil",
+        "triumphant",
+        "upbeat",
+        "uplifting",
+        "victorious",
+        "violent",
+        "warm",
+        "weird",
+        "whimsical"
+      ],
+      "title": "MoodAdvancedScoresV1",
+      "type": "object"
+    },
+    "MoodAdvancedSegmentsV1": {
+      "properties": {
+        "adventurous": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Adventurous",
+          "type": "array"
+        },
+        "aggressive": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Aggressive",
+          "type": "array"
+        },
+        "agitated": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Agitated",
+          "type": "array"
+        },
+        "angry": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Angry",
+          "type": "array"
+        },
+        "anthemic": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Anthemic",
+          "type": "array"
+        },
+        "anxious": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Anxious",
+          "type": "array"
+        },
+        "aweInspiring": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Aweinspiring",
+          "type": "array"
+        },
+        "barren": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Barren",
+          "type": "array"
+        },
+        "bittersweet": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Bittersweet",
+          "type": "array"
+        },
+        "blue": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Blue",
+          "type": "array"
+        },
+        "boingy": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Boingy",
+          "type": "array"
+        },
+        "boisterous": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Boisterous",
+          "type": "array"
+        },
+        "bright": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Bright",
+          "type": "array"
+        },
+        "calm": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Calm",
+          "type": "array"
+        },
+        "celebratory": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Celebratory",
+          "type": "array"
+        },
+        "cheerful": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Cheerful",
+          "type": "array"
+        },
+        "cold": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Cold",
+          "type": "array"
+        },
+        "comedic": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Comedic",
+          "type": "array"
+        },
+        "concerned": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Concerned",
+          "type": "array"
+        },
+        "confident": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Confident",
+          "type": "array"
+        },
+        "contented": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Contented",
+          "type": "array"
+        },
+        "cool": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Cool",
+          "type": "array"
+        },
+        "courageous": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Courageous",
+          "type": "array"
+        },
+        "creepy": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Creepy",
+          "type": "array"
+        },
+        "dangerous": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Dangerous",
+          "type": "array"
+        },
+        "dark": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Dark",
+          "type": "array"
+        },
+        "delicate": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Delicate",
+          "type": "array"
+        },
+        "depressing": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Depressing",
+          "type": "array"
+        },
+        "determined": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Determined",
+          "type": "array"
+        },
+        "dignified": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Dignified",
+          "type": "array"
+        },
+        "disturbing": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Disturbing",
+          "type": "array"
+        },
+        "dreamy": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Dreamy",
+          "type": "array"
+        },
+        "eccentric": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Eccentric",
+          "type": "array"
+        },
+        "eerie": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Eerie",
+          "type": "array"
+        },
+        "emotional": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Emotional",
+          "type": "array"
+        },
+        "energetic": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Energetic",
+          "type": "array"
+        },
+        "epic": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Epic",
+          "type": "array"
+        },
+        "euphoric": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Euphoric",
+          "type": "array"
+        },
+        "evil": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Evil",
+          "type": "array"
+        },
+        "excited": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Excited",
+          "type": "array"
+        },
+        "exciting": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Exciting",
+          "type": "array"
+        },
+        "exhilarating": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Exhilarating",
+          "type": "array"
+        },
+        "fearful": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Fearful",
+          "type": "array"
+        },
+        "feelGood": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Feelgood",
+          "type": "array"
+        },
+        "fiery": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Fiery",
+          "type": "array"
+        },
+        "frightening": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Frightening",
+          "type": "array"
+        },
+        "fun": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Fun",
+          "type": "array"
+        },
+        "funny": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Funny",
+          "type": "array"
+        },
+        "gloomy": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Gloomy",
+          "type": "array"
+        },
+        "graceful": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Graceful",
+          "type": "array"
+        },
+        "happy": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Happy",
+          "type": "array"
+        },
+        "heavy": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Heavy",
+          "type": "array"
+        },
+        "heroic": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Heroic",
+          "type": "array"
+        },
+        "hopeful": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Hopeful",
+          "type": "array"
+        },
+        "horror": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Horror",
+          "type": "array"
+        },
+        "innocent": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Innocent",
+          "type": "array"
+        },
+        "inspirational": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Inspirational",
+          "type": "array"
+        },
+        "intense": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Intense",
+          "type": "array"
+        },
+        "intimate": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Intimate",
+          "type": "array"
+        },
+        "introspective": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Introspective",
+          "type": "array"
+        },
+        "joyous": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Joyous",
+          "type": "array"
+        },
+        "kind": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Kind",
+          "type": "array"
+        },
+        "laidBack": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Laidback",
+          "type": "array"
+        },
+        "leisurely": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Leisurely",
+          "type": "array"
+        },
+        "light": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Light",
+          "type": "array"
+        },
+        "lighthearted": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Lighthearted",
+          "type": "array"
+        },
+        "lonely": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Lonely",
+          "type": "array"
+        },
+        "loving": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Loving",
+          "type": "array"
+        },
+        "lyrical": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Lyrical",
+          "type": "array"
+        },
+        "majestic": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Majestic",
+          "type": "array"
+        },
+        "melancholy": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Melancholy",
+          "type": "array"
+        },
+        "menacing": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Menacing",
+          "type": "array"
+        },
+        "mischievous": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Mischievous",
+          "type": "array"
+        },
+        "motivational": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Motivational",
+          "type": "array"
+        },
+        "mournful": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Mournful",
+          "type": "array"
+        },
+        "mysterious": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Mysterious",
+          "type": "array"
+        },
+        "nervous": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Nervous",
+          "type": "array"
+        },
+        "nightmarish": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Nightmarish",
+          "type": "array"
+        },
+        "noble": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Noble",
+          "type": "array"
+        },
+        "nostalgic": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Nostalgic",
+          "type": "array"
+        },
+        "ominous": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Ominous",
+          "type": "array"
+        },
+        "optimistic": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Optimistic",
+          "type": "array"
+        },
+        "panicStricken": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Panicstricken",
+          "type": "array"
+        },
+        "passionate": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Passionate",
+          "type": "array"
+        },
+        "peaceful": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Peaceful",
+          "type": "array"
+        },
+        "perky": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Perky",
+          "type": "array"
+        },
+        "playful": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Playful",
+          "type": "array"
+        },
+        "poignant": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Poignant",
+          "type": "array"
+        },
+        "ponderous": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Ponderous",
+          "type": "array"
+        },
+        "positive": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Positive",
+          "type": "array"
+        },
+        "powerful": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Powerful",
+          "type": "array"
+        },
+        "prestigious": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Prestigious",
+          "type": "array"
+        },
+        "proud": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Proud",
+          "type": "array"
+        },
+        "quiet": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Quiet",
+          "type": "array"
+        },
+        "quirky": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Quirky",
+          "type": "array"
+        },
+        "reflective": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Reflective",
+          "type": "array"
+        },
+        "relaxed": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Relaxed",
+          "type": "array"
+        },
+        "relentless": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Relentless",
+          "type": "array"
+        },
+        "resolute": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Resolute",
+          "type": "array"
+        },
+        "restless": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Restless",
+          "type": "array"
+        },
+        "rollicking": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Rollicking",
+          "type": "array"
+        },
+        "romantic": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Romantic",
+          "type": "array"
+        },
+        "sad": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Sad",
+          "type": "array"
+        },
+        "scary": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Scary",
+          "type": "array"
+        },
+        "seductive": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Seductive",
+          "type": "array"
+        },
+        "sentimental": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Sentimental",
+          "type": "array"
+        },
+        "serene": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Serene",
+          "type": "array"
+        },
+        "serious": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Serious",
+          "type": "array"
+        },
+        "sexy": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Sexy",
+          "type": "array"
+        },
+        "soaring": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Soaring",
+          "type": "array"
+        },
+        "soft": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Soft",
+          "type": "array"
+        },
+        "solemn": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Solemn",
+          "type": "array"
+        },
+        "soothing": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Soothing",
+          "type": "array"
+        },
+        "spiritual": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Spiritual",
+          "type": "array"
+        },
+        "spooky": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Spooky",
+          "type": "array"
+        },
+        "strange": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Strange",
+          "type": "array"
+        },
+        "strong": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Strong",
+          "type": "array"
+        },
+        "supernatural": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Supernatural",
+          "type": "array"
+        },
+        "suspenseful": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Suspenseful",
+          "type": "array"
+        },
+        "sweet": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Sweet",
+          "type": "array"
+        },
+        "tender": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Tender",
+          "type": "array"
+        },
+        "tense": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Tense",
+          "type": "array"
+        },
+        "thoughtful": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Thoughtful",
+          "type": "array"
+        },
+        "tranquil": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Tranquil",
+          "type": "array"
+        },
+        "triumphant": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Triumphant",
+          "type": "array"
+        },
+        "upbeat": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Upbeat",
+          "type": "array"
+        },
+        "uplifting": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Uplifting",
+          "type": "array"
+        },
+        "victorious": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Victorious",
+          "type": "array"
+        },
+        "violent": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Violent",
+          "type": "array"
+        },
+        "warm": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Warm",
+          "type": "array"
+        },
+        "weird": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Weird",
+          "type": "array"
+        },
+        "whimsical": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Whimsical",
+          "type": "array"
+        }
+      },
+      "required": [
+        "adventurous",
+        "aggressive",
+        "agitated",
+        "angry",
+        "anthemic",
+        "anxious",
+        "aweInspiring",
+        "barren",
+        "bittersweet",
+        "blue",
+        "boingy",
+        "boisterous",
+        "bright",
+        "calm",
+        "celebratory",
+        "cheerful",
+        "cold",
+        "comedic",
+        "concerned",
+        "confident",
+        "contented",
+        "cool",
+        "courageous",
+        "creepy",
+        "dangerous",
+        "dark",
+        "delicate",
+        "depressing",
+        "determined",
+        "dignified",
+        "disturbing",
+        "dreamy",
+        "eccentric",
+        "eerie",
+        "emotional",
+        "energetic",
+        "epic",
+        "euphoric",
+        "evil",
+        "excited",
+        "exciting",
+        "exhilarating",
+        "fearful",
+        "feelGood",
+        "fiery",
+        "frightening",
+        "fun",
+        "funny",
+        "gloomy",
+        "graceful",
+        "happy",
+        "heavy",
+        "heroic",
+        "hopeful",
+        "horror",
+        "innocent",
+        "inspirational",
+        "intense",
+        "intimate",
+        "introspective",
+        "joyous",
+        "kind",
+        "laidBack",
+        "leisurely",
+        "light",
+        "lighthearted",
+        "lonely",
+        "loving",
+        "lyrical",
+        "majestic",
+        "melancholy",
+        "menacing",
+        "mischievous",
+        "motivational",
+        "mournful",
+        "mysterious",
+        "nervous",
+        "nightmarish",
+        "noble",
+        "nostalgic",
+        "ominous",
+        "optimistic",
+        "panicStricken",
+        "passionate",
+        "peaceful",
+        "perky",
+        "playful",
+        "poignant",
+        "ponderous",
+        "positive",
+        "powerful",
+        "prestigious",
+        "proud",
+        "quiet",
+        "quirky",
+        "reflective",
+        "relaxed",
+        "relentless",
+        "resolute",
+        "restless",
+        "rollicking",
+        "romantic",
+        "sad",
+        "scary",
+        "seductive",
+        "sentimental",
+        "serene",
+        "serious",
+        "sexy",
+        "soaring",
+        "soft",
+        "solemn",
+        "soothing",
+        "spiritual",
+        "spooky",
+        "strange",
+        "strong",
+        "supernatural",
+        "suspenseful",
+        "sweet",
+        "tender",
+        "tense",
+        "thoughtful",
+        "tranquil",
+        "triumphant",
+        "upbeat",
+        "uplifting",
+        "victorious",
+        "violent",
+        "warm",
+        "weird",
+        "whimsical"
+      ],
+      "title": "MoodAdvancedSegmentsV1",
+      "type": "object"
+    },
+    "MoodAdvancedTagsV1": {
+      "enum": [
+        "adventurous",
+        "aggressive",
+        "agitated",
+        "angry",
+        "anthemic",
+        "anxious",
+        "aweInspiring",
+        "barren",
+        "bittersweet",
+        "blue",
+        "boingy",
+        "boisterous",
+        "bright",
+        "calm",
+        "celebratory",
+        "cheerful",
+        "cold",
+        "comedic",
+        "concerned",
+        "confident",
+        "contented",
+        "cool",
+        "courageous",
+        "creepy",
+        "dangerous",
+        "dark",
+        "delicate",
+        "depressing",
+        "determined",
+        "dignified",
+        "disturbing",
+        "dreamy",
+        "eccentric",
+        "eerie",
+        "emotional",
+        "energetic",
+        "epic",
+        "euphoric",
+        "evil",
+        "excited",
+        "exciting",
+        "exhilarating",
+        "fearful",
+        "feelGood",
+        "fiery",
+        "frightening",
+        "fun",
+        "funny",
+        "gloomy",
+        "graceful",
+        "happy",
+        "heavy",
+        "heroic",
+        "hopeful",
+        "horror",
+        "innocent",
+        "inspirational",
+        "intense",
+        "intimate",
+        "introspective",
+        "joyous",
+        "kind",
+        "laidBack",
+        "leisurely",
+        "light",
+        "lighthearted",
+        "lonely",
+        "loving",
+        "lyrical",
+        "majestic",
+        "melancholy",
+        "menacing",
+        "mischievous",
+        "motivational",
+        "mournful",
+        "mysterious",
+        "nervous",
+        "nightmarish",
+        "noble",
+        "nostalgic",
+        "ominous",
+        "optimistic",
+        "panicStricken",
+        "passionate",
+        "peaceful",
+        "perky",
+        "playful",
+        "poignant",
+        "ponderous",
+        "positive",
+        "powerful",
+        "prestigious",
+        "proud",
+        "quiet",
+        "quirky",
+        "reflective",
+        "relaxed",
+        "relentless",
+        "resolute",
+        "restless",
+        "rollicking",
+        "romantic",
+        "sad",
+        "scary",
+        "seductive",
+        "sentimental",
+        "serene",
+        "serious",
+        "sexy",
+        "soaring",
+        "soft",
+        "solemn",
+        "soothing",
+        "spiritual",
+        "spooky",
+        "strange",
+        "strong",
+        "supernatural",
+        "suspenseful",
+        "sweet",
+        "tender",
+        "tense",
+        "thoughtful",
+        "tranquil",
+        "triumphant",
+        "upbeat",
+        "uplifting",
+        "victorious",
+        "violent",
+        "warm",
+        "weird",
+        "whimsical"
+      ],
+      "title": "MoodAdvancedTagsV1",
+      "type": "string"
+    },
+    "MoodAdvancedV1": {
+      "properties": {
+        "segments": {
+          "$ref": "#/$defs/MoodAdvancedSegmentsV1"
+        },
+        "scores": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/MoodAdvancedScoresV1"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "tags": {
+          "anyOf": [
+            {
+              "items": {
+                "$ref": "#/$defs/MoodAdvancedTagsV1"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Tags"
+        }
+      },
+      "required": [
+        "segments",
+        "scores",
+        "tags"
+      ],
+      "title": "MoodAdvancedV1",
+      "type": "object"
+    },
+    "MoodSimpleScoresV1": {
+      "properties": {
+        "aggressive": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Aggressive",
+          "type": "number"
+        },
+        "calm": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Calm",
+          "type": "number"
+        },
+        "chill": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Chill",
+          "type": "number"
+        },
+        "dark": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Dark",
+          "type": "number"
+        },
+        "energetic": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Energetic",
+          "type": "number"
+        },
+        "epic": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Epic",
+          "type": "number"
+        },
+        "happy": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Happy",
+          "type": "number"
+        },
+        "romantic": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Romantic",
+          "type": "number"
+        },
+        "sad": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Sad",
+          "type": "number"
+        },
+        "scary": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Scary",
+          "type": "number"
+        },
+        "sexy": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Sexy",
+          "type": "number"
+        },
+        "ethereal": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Ethereal",
+          "type": "number"
+        },
+        "uplifting": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Uplifting",
+          "type": "number"
+        }
+      },
+      "required": [
+        "aggressive",
+        "calm",
+        "chill",
+        "dark",
+        "energetic",
+        "epic",
+        "happy",
+        "romantic",
+        "sad",
+        "scary",
+        "sexy",
+        "ethereal",
+        "uplifting"
+      ],
+      "title": "MoodSimpleScoresV1",
+      "type": "object"
+    },
+    "MoodSimpleSegmentsV1": {
+      "properties": {
+        "aggressive": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Aggressive",
+          "type": "array"
+        },
+        "calm": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Calm",
+          "type": "array"
+        },
+        "chill": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Chill",
+          "type": "array"
+        },
+        "dark": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Dark",
+          "type": "array"
+        },
+        "energetic": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Energetic",
+          "type": "array"
+        },
+        "epic": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Epic",
+          "type": "array"
+        },
+        "happy": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Happy",
+          "type": "array"
+        },
+        "romantic": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Romantic",
+          "type": "array"
+        },
+        "sad": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Sad",
+          "type": "array"
+        },
+        "scary": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Scary",
+          "type": "array"
+        },
+        "sexy": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Sexy",
+          "type": "array"
+        },
+        "ethereal": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Ethereal",
+          "type": "array"
+        },
+        "uplifting": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Uplifting",
+          "type": "array"
+        }
+      },
+      "required": [
+        "aggressive",
+        "calm",
+        "chill",
+        "dark",
+        "energetic",
+        "epic",
+        "happy",
+        "romantic",
+        "sad",
+        "scary",
+        "sexy",
+        "ethereal",
+        "uplifting"
+      ],
+      "title": "MoodSimpleSegmentsV1",
+      "type": "object"
+    },
+    "MoodSimpleTagsV1": {
+      "enum": [
+        "aggressive",
+        "calm",
+        "chill",
+        "dark",
+        "energetic",
+        "epic",
+        "happy",
+        "romantic",
+        "sad",
+        "scary",
+        "sexy",
+        "ethereal",
+        "uplifting"
+      ],
+      "title": "MoodSimpleTagsV1",
+      "type": "string"
+    },
+    "MoodSimpleV1": {
+      "properties": {
+        "segments": {
+          "$ref": "#/$defs/MoodSimpleSegmentsV1"
+        },
+        "scores": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/MoodSimpleScoresV1"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "tags": {
+          "anyOf": [
+            {
+              "items": {
+                "$ref": "#/$defs/MoodSimpleTagsV1"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Tags"
+        }
+      },
+      "required": [
+        "segments",
+        "scores",
+        "tags"
+      ],
+      "title": "MoodSimpleV1",
+      "type": "object"
+    },
+    "MovementScoresV1": {
+      "properties": {
+        "bouncing": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Bouncing",
+          "type": "number"
+        },
+        "driving": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Driving",
+          "type": "number"
+        },
+        "flowing": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Flowing",
+          "type": "number"
+        },
+        "groovy": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Groovy",
+          "type": "number"
+        },
+        "nonrhythmic": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Nonrhythmic",
+          "type": "number"
+        },
+        "pulsing": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Pulsing",
+          "type": "number"
+        },
+        "robotic": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Robotic",
+          "type": "number"
+        },
+        "running": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Running",
+          "type": "number"
+        },
+        "steady": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Steady",
+          "type": "number"
+        },
+        "stomping": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Stomping",
+          "type": "number"
+        }
+      },
+      "required": [
+        "bouncing",
+        "driving",
+        "flowing",
+        "groovy",
+        "nonrhythmic",
+        "pulsing",
+        "robotic",
+        "running",
+        "steady",
+        "stomping"
+      ],
+      "title": "MovementScoresV1",
+      "type": "object"
+    },
+    "MovementSegmentsV1": {
+      "properties": {
+        "bouncing": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Bouncing",
+          "type": "array"
+        },
+        "driving": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Driving",
+          "type": "array"
+        },
+        "flowing": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Flowing",
+          "type": "array"
+        },
+        "groovy": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Groovy",
+          "type": "array"
+        },
+        "nonrhythmic": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Nonrhythmic",
+          "type": "array"
+        },
+        "pulsing": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Pulsing",
+          "type": "array"
+        },
+        "robotic": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Robotic",
+          "type": "array"
+        },
+        "running": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Running",
+          "type": "array"
+        },
+        "steady": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Steady",
+          "type": "array"
+        },
+        "stomping": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Stomping",
+          "type": "array"
+        }
+      },
+      "required": [
+        "bouncing",
+        "driving",
+        "flowing",
+        "groovy",
+        "nonrhythmic",
+        "pulsing",
+        "robotic",
+        "running",
+        "steady",
+        "stomping"
+      ],
+      "title": "MovementSegmentsV1",
+      "type": "object"
+    },
+    "MovementTagsV1": {
+      "enum": [
+        "bouncing",
+        "driving",
+        "flowing",
+        "groovy",
+        "nonrhythmic",
+        "pulsing",
+        "robotic",
+        "running",
+        "steady",
+        "stomping"
+      ],
+      "title": "MovementTagsV1",
+      "type": "string"
+    },
+    "MovementV1": {
+      "properties": {
+        "segments": {
+          "$ref": "#/$defs/MovementSegmentsV1"
+        },
+        "scores": {
+          "$ref": "#/$defs/MovementScoresV1"
+        },
+        "tags": {
+          "items": {
+            "$ref": "#/$defs/MovementTagsV1"
+          },
+          "title": "Tags",
+          "type": "array"
+        }
+      },
+      "required": [
+        "segments",
+        "scores",
+        "tags"
+      ],
+      "title": "MovementV1",
+      "type": "object"
+    },
+    "MusicalEraTagsV1": {
+      "enum": [
+        "earlyMid1950s",
+        "midLate1950s",
+        "late1950sEarly1960s",
+        "earlyMid1960s",
+        "midLate1960s",
+        "late1960sEarly1970s",
+        "earlyMid1970s",
+        "midLate1970s",
+        "late1970sEarly1980s",
+        "earlyMid1980s",
+        "midLate1980s",
+        "late1980sEarly1990s",
+        "earlyMid1990s",
+        "midLate1990s",
+        "late1990sEarly2000s",
+        "earlyMid2000s",
+        "midLate2000s",
+        "late2000sEarly2010s",
+        "contemporary"
+      ],
+      "title": "MusicalEraTagsV1",
+      "type": "string"
+    },
+    "MusicalEraV1": {
+      "properties": {
+        "exactYear": {
+          "maximum": 2022,
+          "minimum": 1950,
+          "title": "Exactyear",
+          "type": "integer"
+        },
+        "tag": {
+          "$ref": "#/$defs/MusicalEraTagsV1"
+        }
+      },
+      "required": [
+        "exactYear",
+        "tag"
+      ],
+      "title": "MusicalEraV1",
+      "type": "object"
+    },
+    "PredominantVocalGenderTagsV1": {
+      "enum": [
+        "male",
+        "female"
+      ],
+      "title": "PredominantVocalGenderTagsV1",
+      "type": "string"
+    },
+    "PresenceTagsV1": {
+      "enum": [
+        "absent",
+        "present",
+        "partially",
+        "frequently",
+        "throughout"
+      ],
+      "title": "PresenceTagsV1",
+      "type": "string"
+    },
+    "RepresentativeSegmentIndex15sV1": {
+      "properties": {
+        "thumbnailIndex": {
+          "title": "Thumbnailindex",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "thumbnailIndex"
+      ],
+      "title": "RepresentativeSegmentIndex15sV1",
+      "type": "object"
+    },
+    "SubgenreScoresV1": {
+      "properties": {
+        "abstractIdm": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Abstractidm"
+        },
+        "breakbeatDnb": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Breakbeatdnb"
+        },
+        "deepHouse": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Deephouse"
+        },
+        "electro": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Electro"
+        },
+        "house": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "House"
+        },
+        "minimal": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Minimal"
+        },
+        "synthPop": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Synthpop"
+        },
+        "techHouse": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Techhouse"
+        },
+        "techno": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Techno"
+        },
+        "trance": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Trance"
+        },
+        "medieval": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Medieval"
+        },
+        "renaissance": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Renaissance"
+        },
+        "baroque": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Baroque"
+        },
+        "classical": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Classical"
+        },
+        "romantic": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Romantic"
+        },
+        "contemporary": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Contemporary"
+        },
+        "bluesRock": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Bluesrock"
+        },
+        "folkRock": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Folkrock"
+        },
+        "hardRock": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Hardrock"
+        },
+        "indieAlternative": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Indiealternative"
+        },
+        "psychedelicProgRock": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Psychedelicprogrock"
+        },
+        "punk": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Punk"
+        },
+        "rockAndRoll": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Rockandroll"
+        },
+        "softRock": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Softrock"
+        },
+        "contemporaryRnb": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Contemporaryrnb"
+        },
+        "gangsta": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Gangsta"
+        },
+        "jazzyHipHop": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Jazzyhiphop"
+        },
+        "popRap": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Poprap"
+        },
+        "trap": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Trap"
+        },
+        "blackMetal": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Blackmetal"
+        },
+        "deathMetal": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Deathmetal"
+        },
+        "doomMetal": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Doommetal"
+        },
+        "heavyMetal": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Heavymetal"
+        },
+        "metalcore": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Metalcore"
+        },
+        "nuMetal": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Numetal"
+        },
+        "disco": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Disco"
+        },
+        "funk": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Funk"
+        },
+        "gospel": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Gospel"
+        },
+        "neoSoul": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Neosoul"
+        },
+        "soul": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Soul"
+        },
+        "bigBandSwing": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Bigbandswing"
+        },
+        "bop": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Bop"
+        },
+        "contemporaryJazz": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Contemporaryjazz"
+        },
+        "easyListening": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Easylistening"
+        },
+        "fusion": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Fusion"
+        },
+        "latinJazz": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Latinjazz"
+        },
+        "smoothJazz": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Smoothjazz"
+        },
+        "country": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Country"
+        },
+        "folk": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Folk"
+        }
+      },
+      "title": "SubgenreScoresV1",
+      "type": "object"
+    },
+    "SubgenreSegmentsV1": {
+      "properties": {
+        "abstractIdm": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Abstractidm"
+        },
+        "breakbeatDnb": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Breakbeatdnb"
+        },
+        "deepHouse": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Deephouse"
+        },
+        "electro": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Electro"
+        },
+        "house": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "House"
+        },
+        "minimal": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Minimal"
+        },
+        "synthPop": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Synthpop"
+        },
+        "techHouse": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Techhouse"
+        },
+        "techno": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Techno"
+        },
+        "trance": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Trance"
+        },
+        "medieval": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Medieval"
+        },
+        "renaissance": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Renaissance"
+        },
+        "baroque": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Baroque"
+        },
+        "classical": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Classical"
+        },
+        "romantic": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Romantic"
+        },
+        "contemporary": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Contemporary"
+        },
+        "bluesRock": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Bluesrock"
+        },
+        "folkRock": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Folkrock"
+        },
+        "hardRock": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Hardrock"
+        },
+        "indieAlternative": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Indiealternative"
+        },
+        "psychedelicProgRock": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Psychedelicprogrock"
+        },
+        "punk": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Punk"
+        },
+        "rockAndRoll": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Rockandroll"
+        },
+        "softRock": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Softrock"
+        },
+        "contemporaryRnb": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Contemporaryrnb"
+        },
+        "gangsta": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Gangsta"
+        },
+        "jazzyHipHop": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Jazzyhiphop"
+        },
+        "popRap": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Poprap"
+        },
+        "trap": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Trap"
+        },
+        "blackMetal": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Blackmetal"
+        },
+        "deathMetal": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Deathmetal"
+        },
+        "doomMetal": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Doommetal"
+        },
+        "heavyMetal": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Heavymetal"
+        },
+        "metalcore": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Metalcore"
+        },
+        "nuMetal": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Numetal"
+        },
+        "disco": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Disco"
+        },
+        "funk": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Funk"
+        },
+        "gospel": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Gospel"
+        },
+        "neoSoul": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Neosoul"
+        },
+        "soul": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Soul"
+        },
+        "bigBandSwing": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Bigbandswing"
+        },
+        "bop": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Bop"
+        },
+        "contemporaryJazz": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Contemporaryjazz"
+        },
+        "easyListening": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Easylistening"
+        },
+        "fusion": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Fusion"
+        },
+        "latinJazz": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Latinjazz"
+        },
+        "smoothJazz": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Smoothjazz"
+        },
+        "country": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Country"
+        },
+        "folk": {
+          "anyOf": [
+            {
+              "items": {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Folk"
+        }
+      },
+      "title": "SubgenreSegmentsV1",
+      "type": "object"
+    },
+    "SubgenreTagsV1": {
+      "enum": [
+        "abstractIdm",
+        "breakbeatDnb",
+        "deepHouse",
+        "electro",
+        "house",
+        "minimal",
+        "synthPop",
+        "techHouse",
+        "techno",
+        "trance",
+        "medieval",
+        "renaissance",
+        "baroque",
+        "classical",
+        "romantic",
+        "contemporary",
+        "bluesRock",
+        "folkRock",
+        "hardRock",
+        "indieAlternative",
+        "psychedelicProgRock",
+        "punk",
+        "rockAndRoll",
+        "softRock",
+        "contemporaryRnb",
+        "gangsta",
+        "jazzyHipHop",
+        "popRap",
+        "trap",
+        "blackMetal",
+        "deathMetal",
+        "doomMetal",
+        "heavyMetal",
+        "metalcore",
+        "nuMetal",
+        "disco",
+        "funk",
+        "gospel",
+        "neoSoul",
+        "soul",
+        "bigBandSwing",
+        "bop",
+        "contemporaryJazz",
+        "easyListening",
+        "fusion",
+        "latinJazz",
+        "smoothJazz",
+        "country",
+        "folk"
+      ],
+      "title": "SubgenreTagsV1",
+      "type": "string"
+    },
+    "SubgenreV1": {
+      "properties": {
+        "segments": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/SubgenreSegmentsV1"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "scores": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/SubgenreScoresV1"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "tags": {
+          "anyOf": [
+            {
+              "items": {
+                "$ref": "#/$defs/SubgenreTagsV1"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Tags"
+        }
+      },
+      "title": "SubgenreV1",
+      "type": "object"
+    },
+    "TimeSignatureTagsV1": {
+      "enum": [
+        "3_4",
+        "4_4"
+      ],
+      "title": "TimeSignatureTagsV1",
+      "type": "string"
+    },
+    "TimeSignatureV1": {
+      "properties": {
+        "tag": {
+          "$ref": "#/$defs/TimeSignatureTagsV1"
+        },
+        "confidence": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Confidence",
+          "type": "number"
+        }
+      },
+      "required": [
+        "tag",
+        "confidence"
+      ],
+      "title": "TimeSignatureV1",
+      "type": "object"
+    },
+    "Timestamps15sV1": {
+      "properties": {
+        "timestamps": {
+          "items": {
+            "multipleOf": 15,
+            "type": "integer"
+          },
+          "title": "Timestamps",
+          "type": "array"
+        }
+      },
+      "required": [
+        "timestamps"
+      ],
+      "title": "Timestamps15sV1",
+      "type": "object"
+    },
+    "ValenceArousalScoresV1": {
+      "properties": {
+        "valence": {
+          "maximum": 1.0,
+          "minimum": -1.0,
+          "title": "Valence",
+          "type": "number"
+        },
+        "arousal": {
+          "maximum": 1.0,
+          "minimum": -1.0,
+          "title": "Arousal",
+          "type": "number"
+        }
+      },
+      "required": [
+        "valence",
+        "arousal"
+      ],
+      "title": "ValenceArousalScoresV1",
+      "type": "object"
+    },
+    "ValenceArousalSegmentsV1": {
+      "properties": {
+        "valence": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": -1.0,
+            "type": "number"
+          },
+          "title": "Valence",
+          "type": "array"
+        },
+        "arousal": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": -1.0,
+            "type": "number"
+          },
+          "title": "Arousal",
+          "type": "array"
+        }
+      },
+      "required": [
+        "valence",
+        "arousal"
+      ],
+      "title": "ValenceArousalSegmentsV1",
+      "type": "object"
+    },
+    "ValenceArousalV1": {
+      "properties": {
+        "segments": {
+          "$ref": "#/$defs/ValenceArousalSegmentsV1"
+        },
+        "scores": {
+          "$ref": "#/$defs/ValenceArousalScoresV1"
+        },
+        "energyLevel": {
+          "$ref": "#/$defs/EnergyLevelTagsV1"
+        },
+        "energyChanges": {
+          "$ref": "#/$defs/EnergyChangesTagsV1"
+        },
+        "emotionProfile": {
+          "$ref": "#/$defs/EmotionProfileTagsV1"
+        },
+        "emotionChanges": {
+          "$ref": "#/$defs/EmotionChangesTagsV1"
+        }
+      },
+      "required": [
+        "segments",
+        "scores",
+        "energyLevel",
+        "energyChanges",
+        "emotionProfile",
+        "emotionChanges"
+      ],
+      "title": "ValenceArousalV1",
+      "type": "object"
+    },
+    "VocalPresenceTagsV1": {
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "title": "VocalPresenceTagsV1",
+      "type": "string"
+    },
+    "VocalScoresV1": {
+      "properties": {
+        "female": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Female",
+          "type": "number"
+        },
+        "male": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Male",
+          "type": "number"
+        },
+        "instrumental": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Instrumental",
+          "type": "number"
+        }
+      },
+      "required": [
+        "female",
+        "male",
+        "instrumental"
+      ],
+      "title": "VocalScoresV1",
+      "type": "object"
+    },
+    "VocalSegmentsV1": {
+      "properties": {
+        "female": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Female",
+          "type": "array"
+        },
+        "male": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Male",
+          "type": "array"
+        },
+        "instrumental": {
+          "items": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "title": "Instrumental",
+          "type": "array"
+        }
+      },
+      "required": [
+        "female",
+        "male",
+        "instrumental"
+      ],
+      "title": "VocalSegmentsV1",
+      "type": "object"
+    },
+    "VocalTagsV1": {
+      "enum": [
+        "female",
+        "male",
+        "instrumental"
+      ],
+      "title": "VocalTagsV1",
+      "type": "string"
+    },
+    "VocalV1": {
+      "properties": {
+        "segments": {
+          "$ref": "#/$defs/VocalSegmentsV1"
+        },
+        "scores": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/VocalScoresV1"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "tags": {
+          "anyOf": [
+            {
+              "items": {
+                "$ref": "#/$defs/VocalTagsV1"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Tags"
+        },
+        "vocalPresence": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/VocalPresenceTagsV1"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "predominantVocalGender": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/PredominantVocalGenderTagsV1"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "required": [
+        "segments",
+        "scores",
+        "tags"
+      ],
+      "title": "VocalV1",
+      "type": "object"
+    },
+    "VoiceoverV1": {
+      "properties": {
+        "voiceoverDegree": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Voiceoverdegree",
+          "type": "number"
+        },
+        "isVoiceoverDominant": {
+          "title": "Isvoiceoverdominant",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "voiceoverDegree",
+        "isVoiceoverDominant"
+      ],
+      "title": "VoiceoverV1",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "audioFileInfo": {
+      "$ref": "#/$defs/AudioFileInfoV1"
+    },
+    "autoDescription": {
+      "$ref": "#/$defs/AutoDescriptionV2"
+    },
+    "bpm": {
+      "$ref": "#/$defs/BpmV1"
+    },
+    "character": {
+      "$ref": "#/$defs/CharacterV1"
+    },
+    "freeGenre": {
+      "$ref": "#/$defs/FreeGenreV2"
+    },
+    "instrument": {
+      "$ref": "#/$defs/InstrumentV1"
+    },
+    "key": {
+      "$ref": "#/$defs/KeyV1"
+    },
+    "mainGenre": {
+      "$ref": "#/$defs/MaingenreV1"
+    },
+    "moodAdvanced": {
+      "$ref": "#/$defs/MoodAdvancedV1"
+    },
+    "moodSimple": {
+      "$ref": "#/$defs/MoodSimpleV1"
+    },
+    "movement": {
+      "$ref": "#/$defs/MovementV1"
+    },
+    "musicalEra": {
+      "$ref": "#/$defs/MusicalEraV1"
+    },
+    "representativeSegmentIndex15s": {
+      "$ref": "#/$defs/RepresentativeSegmentIndex15sV1"
+    },
+    "subGenre": {
+      "$ref": "#/$defs/SubgenreV1"
+    },
+    "timeSignature": {
+      "$ref": "#/$defs/TimeSignatureV1"
+    },
+    "timeStamps15s": {
+      "$ref": "#/$defs/Timestamps15sV1"
+    },
+    "valenceArousal": {
+      "$ref": "#/$defs/ValenceArousalV1"
+    },
+    "vocal": {
+      "$ref": "#/$defs/VocalV1"
+    },
+    "voiceover": {
+      "$ref": "#/$defs/VoiceoverV1"
+    }
+  },
+  "required": [
+    "audioFileInfo",
+    "autoDescription",
+    "bpm",
+    "character",
+    "freeGenre",
+    "instrument",
+    "key",
+    "mainGenre",
+    "moodAdvanced",
+    "moodSimple",
+    "movement",
+    "musicalEra",
+    "representativeSegmentIndex15s",
+    "subGenre",
+    "timeSignature",
+    "timeStamps15s",
+    "valenceArousal",
+    "vocal",
+    "voiceover"
+  ],
+  "title": "TaggingV8",
+  "type": "object",
+  "$id": "https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json"
+}

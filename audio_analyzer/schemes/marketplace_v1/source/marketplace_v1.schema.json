@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "$id": "https://github.com/cyanite-ai/aws-marketplace/[...]/v1/schema/marketplace_v1.schema.json",
+  "$id": "https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json",
   "title": "marketplace_v1",
   "description": "This schema describes the json object returned by the Cyanite Audio Analyzer for version marketplace_v1.",
   "type": "object",
@@ -11,7 +11,7 @@
     "analysis": {
       "type": "object",
       "properties": {
-        "genre_v1": {
+        "genre_v8": {
           "type": "object",
           "properties": {
             "segmentsMainGenre": {
@@ -853,7 +853,7 @@
             "tagsSubgenre"
           ]
         },
-        "mood_v1": {
+        "mood_v8": {
           "type": "object",
           "properties": {
             "tags": {
@@ -1026,7 +1026,7 @@
             "segments"
           ]
         },
-        "moodAdvanced_v1": {
+        "moodAdvanced_v8": {
           "type": "object",
           "properties": {
             "tags": {
@@ -2508,7 +2508,7 @@
             "segments"
           ]
         },
-        "character_v1": {
+        "character_v8": {
           "type": "object",
           "properties": {
             "tags": {
@@ -2714,7 +2714,7 @@
             "segments"
           ]
         },
-        "movement_v1": {
+        "movement_v8": {
           "type": "object",
           "properties": {
             "tags": {
@@ -2854,7 +2854,7 @@
             "segments"
           ]
         },
-        "instruments_v1": {
+        "instruments_v8": {
           "type": "object",
           "properties": {
             "tags": {
@@ -2994,7 +2994,7 @@
             "presence"
           ]
         },
-        "voice_v1": {
+        "voice_v8": {
           "type": "object",
           "properties": {
             "tags": {
@@ -3065,7 +3065,7 @@
             "predominantVoiceGender"
           ]
         },
-        "valenceArousal_v1": {
+        "valenceArousal_v8": {
           "type": "object",
           "properties": {
             "mean": {
@@ -3126,7 +3126,7 @@
             "emotionalDynamics"
           ]
         },
-        "musicalEra_v1": {
+        "musicalEra_v8": {
           "type": "object",
           "properties": {
             "tags": {
@@ -3141,7 +3141,7 @@
             "exactYear"
           ]
         },
-        "musicalFeatures_v1": {
+        "musicalFeatures_v8": {
           "type": "object",
           "properties": {
             "bpm": {
@@ -3188,7 +3188,7 @@
             "timeSignature"
           ]
         },
-        "voiceover_v1": {
+        "voiceover_v8": {
           "type": "object",
           "properties": {
             "voiceoverDegree": {
@@ -3204,10 +3204,29 @@
           ]
         },
         "transformerCaption_v1": {
-          "type": "string"
+          "type": "object",
+          "properties": {
+            "caption": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "caption"
+          ]
         },
         "transformerGenreTags_v1": {
-          "type": "string"
+          "type": "object",
+          "properties": {
+            "tags": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "tags"
+          ]
         }
       },
       "required": [

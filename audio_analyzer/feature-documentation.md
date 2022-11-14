@@ -4,22 +4,23 @@ This is the documentation for the Cyanite Audio Analyzer output features.
 
 #### Feature Matrix:
 
+The feature matrix can be used to look up which marketplace version corresponds to which feature versions.
 
 | | marketplace_v1 | 
 | :--- | :--- |
-| [transformerCaption](#transformercaption)   | v1 |
-| [transformerGenreTags](#transformergenretags) | v1 |          
-| [genre](#genre) | v1 |                                
-| [mood](#mood) | v1 |                               
-| [moodAdvanced](#moodadvanced) | v1 |                                       
-| [character](#character) | v1 |                                    
-| [movement](#movement) | v1 |                                   
-| [instruments](#instruments) | v1 |                                      
-| [voice](#voice) | v1 |                                
-| [valenceArousal](#valencearousal) | v1 |                                         
-| [musicalEra](#musicalera) | v1 |                                     
-| [musicalFeatures](#musicalfeatures) | v1 |                                          
-| [voiceover](#voiceover) | v1 |                                    
+| [transformerCaption](#transformercaption)   | v8 |
+| [transformerGenreTags](#transformergenretags) | v8 |          
+| [genre](#genre) | v8 |                                
+| [mood](#mood) | v8 |                               
+| [moodAdvanced](#moodadvanced) | v8 |                                       
+| [character](#character) | v8 |                                    
+| [movement](#movement) | v8 |                                   
+| [instruments](#instruments) | v8 |                                      
+| [voice](#voice) | v8 |                                
+| [valenceArousal](#valencearousal) | v8 |                                         
+| [musicalEra](#musicalera) | v8 |                                     
+| [musicalFeatures](#musicalfeatures) | v8 |                                          
+| [voiceover](#voiceover) | v8 |                                    
 
 
 #### JSON Schemes:
@@ -49,13 +50,20 @@ ___
 <a name="transformercaption"></a>
 ### 1. `transformerCaption`
 
+| Features | Description |
+| :--- | :--- |
+| caption | String of text describing the audio content | 
+
 The `transformerCaption` is predicted on a transformer-based model. 
 The caption output is a string of max. 30 words describing various aspects of the audio track in one or few sentences (full text).
-
 
 ___
 <a name="transformergenretags"></a>
 ### 2. `transformerGenreTags`
+
+| Features | Description |
+| :--- | :--- |
+| tags | Array of tags describing the genre(s) of the audio | 
 
 The `transformerGenreTags` is predicted on a transformer-based model. The output is a string of comma delimited genre tags for the track. It is different to the genre models as it does not follow a fixed taxonomy and does instead cover a very broad range of musical genres. Due to its text generator nature, there are no scores returned for the tags given. 
 

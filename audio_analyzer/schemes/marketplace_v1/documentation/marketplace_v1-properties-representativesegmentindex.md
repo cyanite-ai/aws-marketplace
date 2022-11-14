@@ -1,7 +1,7 @@
 # Untitled integer in marketplace\_v1 Schema
 
 ```txt
-https://github.com/cyanite-ai/aws-marketplace/[...]/v1/schema/marketplace_v1.schema.json#/properties/representativeSegmentIndex
+https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/representativeSegmentIndex
 ```
 
 

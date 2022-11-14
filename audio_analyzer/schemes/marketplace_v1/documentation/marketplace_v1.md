@@ -1,7 +1,7 @@
 # marketplace\_v1 Schema
 
 ```txt
-https://github.com/cyanite-ai/aws-marketplace/[...]/v1/schema/marketplace_v1.schema.json
+https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json
 ```
 
 This schema describes the json object returned by the Cyanite Audio Analyzer for version marketplace\_v1.
@@ -16,12 +16,12 @@ This schema describes the json object returned by the Cyanite Audio Analyzer for
 
 # marketplace\_v1 Properties
 
-| Property                                                  | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                    |
-| :-------------------------------------------------------- | :-------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [version](#version)                                       | `string`  | Required | cannot be null | [marketplace\_v1](marketplace_v1-properties-version.md "https://github.com/cyanite-ai/aws-marketplace/\[...]/v1/schema/marketplace_v1.schema.json#/properties/version")                                       |
-| [analysis](#analysis)                                     | `object`  | Required | cannot be null | [marketplace\_v1](marketplace_v1-properties-analysis.md "https://github.com/cyanite-ai/aws-marketplace/\[...]/v1/schema/marketplace_v1.schema.json#/properties/analysis")                                     |
-| [representativeSegmentIndex](#representativesegmentindex) | `integer` | Required | cannot be null | [marketplace\_v1](marketplace_v1-properties-representativesegmentindex.md "https://github.com/cyanite-ai/aws-marketplace/\[...]/v1/schema/marketplace_v1.schema.json#/properties/representativeSegmentIndex") |
-| [timestamps](#timestamps)                                 | `array`   | Required | cannot be null | [marketplace\_v1](marketplace_v1-properties-timestamps.md "https://github.com/cyanite-ai/aws-marketplace/\[...]/v1/schema/marketplace_v1.schema.json#/properties/timestamps")                                 |
+| Property                                                  | Type      | Required | Nullable       | Defined by                                                                                                                                                                                                                                          |
+| :-------------------------------------------------------- | :-------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [version](#version)                                       | `string`  | Required | cannot be null | [marketplace\_v1](marketplace_v1-properties-version.md "https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/version")                                       |
+| [analysis](#analysis)                                     | `object`  | Required | cannot be null | [marketplace\_v1](marketplace_v1-properties-analysis.md "https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis")                                     |
+| [representativeSegmentIndex](#representativesegmentindex) | `integer` | Required | cannot be null | [marketplace\_v1](marketplace_v1-properties-representativesegmentindex.md "https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/representativeSegmentIndex") |
+| [timestamps](#timestamps)                                 | `array`   | Required | cannot be null | [marketplace\_v1](marketplace_v1-properties-timestamps.md "https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/timestamps")                                 |
 
 ## version
 
@@ -35,7 +35,7 @@ This schema describes the json object returned by the Cyanite Audio Analyzer for
 
 *   cannot be null
 
-*   defined in: [marketplace\_v1](marketplace_v1-properties-version.md "https://github.com/cyanite-ai/aws-marketplace/\[...]/v1/schema/marketplace_v1.schema.json#/properties/version")
+*   defined in: [marketplace\_v1](marketplace_v1-properties-version.md "https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/version")
 
 ### version Type
 
@@ -53,7 +53,7 @@ This schema describes the json object returned by the Cyanite Audio Analyzer for
 
 *   cannot be null
 
-*   defined in: [marketplace\_v1](marketplace_v1-properties-analysis.md "https://github.com/cyanite-ai/aws-marketplace/\[...]/v1/schema/marketplace_v1.schema.json#/properties/analysis")
+*   defined in: [marketplace\_v1](marketplace_v1-properties-analysis.md "https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis")
 
 ### analysis Type
 
@@ -71,7 +71,7 @@ This schema describes the json object returned by the Cyanite Audio Analyzer for
 
 *   cannot be null
 
-*   defined in: [marketplace\_v1](marketplace_v1-properties-representativesegmentindex.md "https://github.com/cyanite-ai/aws-marketplace/\[...]/v1/schema/marketplace_v1.schema.json#/properties/representativeSegmentIndex")
+*   defined in: [marketplace\_v1](marketplace_v1-properties-representativesegmentindex.md "https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/representativeSegmentIndex")
 
 ### representativeSegmentIndex Type
 
@@ -89,7 +89,7 @@ This schema describes the json object returned by the Cyanite Audio Analyzer for
 
 *   cannot be null
 
-*   defined in: [marketplace\_v1](marketplace_v1-properties-timestamps.md "https://github.com/cyanite-ai/aws-marketplace/\[...]/v1/schema/marketplace_v1.schema.json#/properties/timestamps")
+*   defined in: [marketplace\_v1](marketplace_v1-properties-timestamps.md "https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/timestamps")
 
 ### timestamps Type
 

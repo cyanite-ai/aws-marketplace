@@ -1,7 +1,7 @@
 # Untitled object in marketplace\_v1 Schema
 
 ```txt
-https://github.com/cyanite-ai/aws-marketplace/[...]/v1/schema/marketplace_v1.schema.json#/properties/analysis
+https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis
 ```
 
 
@@ -16,219 +16,219 @@ https://github.com/cyanite-ai/aws-marketplace/[...]/v1/schema/marketplace_v1.sch
 
 # analysis Properties
 
-| Property                                             | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                      |
-| :--------------------------------------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [genre\_v1](#genre_v1)                               | `object` | Required | cannot be null | [marketplace\_v1](marketplace_v1-properties-analysis-properties-genre_v1.md "https://github.com/cyanite-ai/aws-marketplace/\[...]/v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/genre_v1")                               |
-| [mood\_v1](#mood_v1)                                 | `object` | Required | cannot be null | [marketplace\_v1](marketplace_v1-properties-analysis-properties-mood_v1.md "https://github.com/cyanite-ai/aws-marketplace/\[...]/v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/mood_v1")                                 |
-| [moodAdvanced\_v1](#moodadvanced_v1)                 | `object` | Required | cannot be null | [marketplace\_v1](marketplace_v1-properties-analysis-properties-moodadvanced_v1.md "https://github.com/cyanite-ai/aws-marketplace/\[...]/v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v1")                 |
-| [character\_v1](#character_v1)                       | `object` | Required | cannot be null | [marketplace\_v1](marketplace_v1-properties-analysis-properties-character_v1.md "https://github.com/cyanite-ai/aws-marketplace/\[...]/v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/character_v1")                       |
-| [movement\_v1](#movement_v1)                         | `object` | Required | cannot be null | [marketplace\_v1](marketplace_v1-properties-analysis-properties-movement_v1.md "https://github.com/cyanite-ai/aws-marketplace/\[...]/v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/movement_v1")                         |
-| [instruments\_v1](#instruments_v1)                   | `object` | Required | cannot be null | [marketplace\_v1](marketplace_v1-properties-analysis-properties-instruments_v1.md "https://github.com/cyanite-ai/aws-marketplace/\[...]/v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/instruments_v1")                   |
-| [voice\_v1](#voice_v1)                               | `object` | Required | cannot be null | [marketplace\_v1](marketplace_v1-properties-analysis-properties-voice_v1.md "https://github.com/cyanite-ai/aws-marketplace/\[...]/v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/voice_v1")                               |
-| [valenceArousal\_v1](#valencearousal_v1)             | `object` | Required | cannot be null | [marketplace\_v1](marketplace_v1-properties-analysis-properties-valencearousal_v1.md "https://github.com/cyanite-ai/aws-marketplace/\[...]/v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/valenceArousal_v1")             |
-| [musicalEra\_v1](#musicalera_v1)                     | `object` | Required | cannot be null | [marketplace\_v1](marketplace_v1-properties-analysis-properties-musicalera_v1.md "https://github.com/cyanite-ai/aws-marketplace/\[...]/v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/musicalEra_v1")                     |
-| [musicalFeatures\_v1](#musicalfeatures_v1)           | `object` | Required | cannot be null | [marketplace\_v1](marketplace_v1-properties-analysis-properties-musicalfeatures_v1.md "https://github.com/cyanite-ai/aws-marketplace/\[...]/v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/musicalFeatures_v1")           |
-| [voiceover\_v1](#voiceover_v1)                       | `object` | Required | cannot be null | [marketplace\_v1](marketplace_v1-properties-analysis-properties-voiceover_v1.md "https://github.com/cyanite-ai/aws-marketplace/\[...]/v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/voiceover_v1")                       |
-| [transformerCaption\_v1](#transformercaption_v1)     | `string` | Required | cannot be null | [marketplace\_v1](marketplace_v1-properties-analysis-properties-transformercaption_v1.md "https://github.com/cyanite-ai/aws-marketplace/\[...]/v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/transformerCaption_v1")     |
-| [transformerGenreTags\_v1](#transformergenretags_v1) | `string` | Required | cannot be null | [marketplace\_v1](marketplace_v1-properties-analysis-properties-transformergenretags_v1.md "https://github.com/cyanite-ai/aws-marketplace/\[...]/v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/transformerGenreTags_v1") |
+| Property                                             | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                            |
+| :--------------------------------------------------- | :------- | :------- | :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [genre\_v8](#genre_v8)                               | `object` | Optional | cannot be null | [marketplace\_v1](marketplace_v1-properties-analysis-properties-genre_v8.md "https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/genre_v8")                               |
+| [mood\_v8](#mood_v8)                                 | `object` | Optional | cannot be null | [marketplace\_v1](marketplace_v1-properties-analysis-properties-mood_v8.md "https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/mood_v8")                                 |
+| [moodAdvanced\_v8](#moodadvanced_v8)                 | `object` | Optional | cannot be null | [marketplace\_v1](marketplace_v1-properties-analysis-properties-moodadvanced_v8.md "https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8")                 |
+| [character\_v8](#character_v8)                       | `object` | Optional | cannot be null | [marketplace\_v1](marketplace_v1-properties-analysis-properties-character_v8.md "https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/character_v8")                       |
+| [movement\_v8](#movement_v8)                         | `object` | Optional | cannot be null | [marketplace\_v1](marketplace_v1-properties-analysis-properties-movement_v8.md "https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/movement_v8")                         |
+| [instruments\_v8](#instruments_v8)                   | `object` | Optional | cannot be null | [marketplace\_v1](marketplace_v1-properties-analysis-properties-instruments_v8.md "https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/instruments_v8")                   |
+| [voice\_v8](#voice_v8)                               | `object` | Optional | cannot be null | [marketplace\_v1](marketplace_v1-properties-analysis-properties-voice_v8.md "https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/voice_v8")                               |
+| [valenceArousal\_v8](#valencearousal_v8)             | `object` | Optional | cannot be null | [marketplace\_v1](marketplace_v1-properties-analysis-properties-valencearousal_v8.md "https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/valenceArousal_v8")             |
+| [musicalEra\_v8](#musicalera_v8)                     | `object` | Optional | cannot be null | [marketplace\_v1](marketplace_v1-properties-analysis-properties-musicalera_v8.md "https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/musicalEra_v8")                     |
+| [musicalFeatures\_v8](#musicalfeatures_v8)           | `object` | Optional | cannot be null | [marketplace\_v1](marketplace_v1-properties-analysis-properties-musicalfeatures_v8.md "https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/musicalFeatures_v8")           |
+| [voiceover\_v8](#voiceover_v8)                       | `object` | Optional | cannot be null | [marketplace\_v1](marketplace_v1-properties-analysis-properties-voiceover_v8.md "https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/voiceover_v8")                       |
+| [transformerCaption\_v1](#transformercaption_v1)     | `object` | Required | cannot be null | [marketplace\_v1](marketplace_v1-properties-analysis-properties-transformercaption_v1.md "https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/transformerCaption_v1")     |
+| [transformerGenreTags\_v1](#transformergenretags_v1) | `object` | Required | cannot be null | [marketplace\_v1](marketplace_v1-properties-analysis-properties-transformergenretags_v1.md "https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/transformerGenreTags_v1") |
 
-## genre\_v1
-
-
-
-`genre_v1`
-
-*   is required
-
-*   Type: `object` ([Details](marketplace_v1-properties-analysis-properties-genre_v1.md))
-
-*   cannot be null
-
-*   defined in: [marketplace\_v1](marketplace_v1-properties-analysis-properties-genre_v1.md "https://github.com/cyanite-ai/aws-marketplace/\[...]/v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/genre_v1")
-
-### genre\_v1 Type
-
-`object` ([Details](marketplace_v1-properties-analysis-properties-genre_v1.md))
-
-## mood\_v1
+## genre\_v8
 
 
 
-`mood_v1`
+`genre_v8`
 
-*   is required
+*   is optional
 
-*   Type: `object` ([Details](marketplace_v1-properties-analysis-properties-mood_v1.md))
+*   Type: `object` ([Details](marketplace_v1-properties-analysis-properties-genre_v8.md))
 
 *   cannot be null
 
-*   defined in: [marketplace\_v1](marketplace_v1-properties-analysis-properties-mood_v1.md "https://github.com/cyanite-ai/aws-marketplace/\[...]/v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/mood_v1")
+*   defined in: [marketplace\_v1](marketplace_v1-properties-analysis-properties-genre_v8.md "https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/genre_v8")
 
-### mood\_v1 Type
+### genre\_v8 Type
 
-`object` ([Details](marketplace_v1-properties-analysis-properties-mood_v1.md))
+`object` ([Details](marketplace_v1-properties-analysis-properties-genre_v8.md))
 
-## moodAdvanced\_v1
-
-
-
-`moodAdvanced_v1`
-
-*   is required
-
-*   Type: `object` ([Details](marketplace_v1-properties-analysis-properties-moodadvanced_v1.md))
-
-*   cannot be null
-
-*   defined in: [marketplace\_v1](marketplace_v1-properties-analysis-properties-moodadvanced_v1.md "https://github.com/cyanite-ai/aws-marketplace/\[...]/v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v1")
-
-### moodAdvanced\_v1 Type
-
-`object` ([Details](marketplace_v1-properties-analysis-properties-moodadvanced_v1.md))
-
-## character\_v1
+## mood\_v8
 
 
 
-`character_v1`
+`mood_v8`
 
-*   is required
+*   is optional
 
-*   Type: `object` ([Details](marketplace_v1-properties-analysis-properties-character_v1.md))
+*   Type: `object` ([Details](marketplace_v1-properties-analysis-properties-mood_v8.md))
 
 *   cannot be null
 
-*   defined in: [marketplace\_v1](marketplace_v1-properties-analysis-properties-character_v1.md "https://github.com/cyanite-ai/aws-marketplace/\[...]/v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/character_v1")
+*   defined in: [marketplace\_v1](marketplace_v1-properties-analysis-properties-mood_v8.md "https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/mood_v8")
 
-### character\_v1 Type
+### mood\_v8 Type
 
-`object` ([Details](marketplace_v1-properties-analysis-properties-character_v1.md))
+`object` ([Details](marketplace_v1-properties-analysis-properties-mood_v8.md))
 
-## movement\_v1
-
-
-
-`movement_v1`
-
-*   is required
-
-*   Type: `object` ([Details](marketplace_v1-properties-analysis-properties-movement_v1.md))
-
-*   cannot be null
-
-*   defined in: [marketplace\_v1](marketplace_v1-properties-analysis-properties-movement_v1.md "https://github.com/cyanite-ai/aws-marketplace/\[...]/v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/movement_v1")
-
-### movement\_v1 Type
-
-`object` ([Details](marketplace_v1-properties-analysis-properties-movement_v1.md))
-
-## instruments\_v1
+## moodAdvanced\_v8
 
 
 
-`instruments_v1`
+`moodAdvanced_v8`
 
-*   is required
+*   is optional
 
-*   Type: `object` ([Details](marketplace_v1-properties-analysis-properties-instruments_v1.md))
+*   Type: `object` ([Details](marketplace_v1-properties-analysis-properties-moodadvanced_v8.md))
 
 *   cannot be null
 
-*   defined in: [marketplace\_v1](marketplace_v1-properties-analysis-properties-instruments_v1.md "https://github.com/cyanite-ai/aws-marketplace/\[...]/v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/instruments_v1")
+*   defined in: [marketplace\_v1](marketplace_v1-properties-analysis-properties-moodadvanced_v8.md "https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8")
 
-### instruments\_v1 Type
+### moodAdvanced\_v8 Type
 
-`object` ([Details](marketplace_v1-properties-analysis-properties-instruments_v1.md))
+`object` ([Details](marketplace_v1-properties-analysis-properties-moodadvanced_v8.md))
 
-## voice\_v1
-
-
-
-`voice_v1`
-
-*   is required
-
-*   Type: `object` ([Details](marketplace_v1-properties-analysis-properties-voice_v1.md))
-
-*   cannot be null
-
-*   defined in: [marketplace\_v1](marketplace_v1-properties-analysis-properties-voice_v1.md "https://github.com/cyanite-ai/aws-marketplace/\[...]/v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/voice_v1")
-
-### voice\_v1 Type
-
-`object` ([Details](marketplace_v1-properties-analysis-properties-voice_v1.md))
-
-## valenceArousal\_v1
+## character\_v8
 
 
 
-`valenceArousal_v1`
+`character_v8`
 
-*   is required
+*   is optional
 
-*   Type: `object` ([Details](marketplace_v1-properties-analysis-properties-valencearousal_v1.md))
+*   Type: `object` ([Details](marketplace_v1-properties-analysis-properties-character_v8.md))
 
 *   cannot be null
 
-*   defined in: [marketplace\_v1](marketplace_v1-properties-analysis-properties-valencearousal_v1.md "https://github.com/cyanite-ai/aws-marketplace/\[...]/v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/valenceArousal_v1")
+*   defined in: [marketplace\_v1](marketplace_v1-properties-analysis-properties-character_v8.md "https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/character_v8")
 
-### valenceArousal\_v1 Type
+### character\_v8 Type
 
-`object` ([Details](marketplace_v1-properties-analysis-properties-valencearousal_v1.md))
+`object` ([Details](marketplace_v1-properties-analysis-properties-character_v8.md))
 
-## musicalEra\_v1
-
-
-
-`musicalEra_v1`
-
-*   is required
-
-*   Type: `object` ([Details](marketplace_v1-properties-analysis-properties-musicalera_v1.md))
-
-*   cannot be null
-
-*   defined in: [marketplace\_v1](marketplace_v1-properties-analysis-properties-musicalera_v1.md "https://github.com/cyanite-ai/aws-marketplace/\[...]/v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/musicalEra_v1")
-
-### musicalEra\_v1 Type
-
-`object` ([Details](marketplace_v1-properties-analysis-properties-musicalera_v1.md))
-
-## musicalFeatures\_v1
+## movement\_v8
 
 
 
-`musicalFeatures_v1`
+`movement_v8`
 
-*   is required
+*   is optional
 
-*   Type: `object` ([Details](marketplace_v1-properties-analysis-properties-musicalfeatures_v1.md))
+*   Type: `object` ([Details](marketplace_v1-properties-analysis-properties-movement_v8.md))
 
 *   cannot be null
 
-*   defined in: [marketplace\_v1](marketplace_v1-properties-analysis-properties-musicalfeatures_v1.md "https://github.com/cyanite-ai/aws-marketplace/\[...]/v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/musicalFeatures_v1")
+*   defined in: [marketplace\_v1](marketplace_v1-properties-analysis-properties-movement_v8.md "https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/movement_v8")
 
-### musicalFeatures\_v1 Type
+### movement\_v8 Type
 
-`object` ([Details](marketplace_v1-properties-analysis-properties-musicalfeatures_v1.md))
+`object` ([Details](marketplace_v1-properties-analysis-properties-movement_v8.md))
 
-## voiceover\_v1
+## instruments\_v8
 
 
 
-`voiceover_v1`
+`instruments_v8`
 
-*   is required
+*   is optional
 
-*   Type: `object` ([Details](marketplace_v1-properties-analysis-properties-voiceover_v1.md))
+*   Type: `object` ([Details](marketplace_v1-properties-analysis-properties-instruments_v8.md))
 
 *   cannot be null
 
-*   defined in: [marketplace\_v1](marketplace_v1-properties-analysis-properties-voiceover_v1.md "https://github.com/cyanite-ai/aws-marketplace/\[...]/v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/voiceover_v1")
+*   defined in: [marketplace\_v1](marketplace_v1-properties-analysis-properties-instruments_v8.md "https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/instruments_v8")
 
-### voiceover\_v1 Type
+### instruments\_v8 Type
 
-`object` ([Details](marketplace_v1-properties-analysis-properties-voiceover_v1.md))
+`object` ([Details](marketplace_v1-properties-analysis-properties-instruments_v8.md))
+
+## voice\_v8
+
+
+
+`voice_v8`
+
+*   is optional
+
+*   Type: `object` ([Details](marketplace_v1-properties-analysis-properties-voice_v8.md))
+
+*   cannot be null
+
+*   defined in: [marketplace\_v1](marketplace_v1-properties-analysis-properties-voice_v8.md "https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/voice_v8")
+
+### voice\_v8 Type
+
+`object` ([Details](marketplace_v1-properties-analysis-properties-voice_v8.md))
+
+## valenceArousal\_v8
+
+
+
+`valenceArousal_v8`
+
+*   is optional
+
+*   Type: `object` ([Details](marketplace_v1-properties-analysis-properties-valencearousal_v8.md))
+
+*   cannot be null
+
+*   defined in: [marketplace\_v1](marketplace_v1-properties-analysis-properties-valencearousal_v8.md "https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/valenceArousal_v8")
+
+### valenceArousal\_v8 Type
+
+`object` ([Details](marketplace_v1-properties-analysis-properties-valencearousal_v8.md))
+
+## musicalEra\_v8
+
+
+
+`musicalEra_v8`
+
+*   is optional
+
+*   Type: `object` ([Details](marketplace_v1-properties-analysis-properties-musicalera_v8.md))
+
+*   cannot be null
+
+*   defined in: [marketplace\_v1](marketplace_v1-properties-analysis-properties-musicalera_v8.md "https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/musicalEra_v8")
+
+### musicalEra\_v8 Type
+
+`object` ([Details](marketplace_v1-properties-analysis-properties-musicalera_v8.md))
+
+## musicalFeatures\_v8
+
+
+
+`musicalFeatures_v8`
+
+*   is optional
+
+*   Type: `object` ([Details](marketplace_v1-properties-analysis-properties-musicalfeatures_v8.md))
+
+*   cannot be null
+
+*   defined in: [marketplace\_v1](marketplace_v1-properties-analysis-properties-musicalfeatures_v8.md "https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/musicalFeatures_v8")
+
+### musicalFeatures\_v8 Type
+
+`object` ([Details](marketplace_v1-properties-analysis-properties-musicalfeatures_v8.md))
+
+## voiceover\_v8
+
+
+
+`voiceover_v8`
+
+*   is optional
+
+*   Type: `object` ([Details](marketplace_v1-properties-analysis-properties-voiceover_v8.md))
+
+*   cannot be null
+
+*   defined in: [marketplace\_v1](marketplace_v1-properties-analysis-properties-voiceover_v8.md "https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/voiceover_v8")
+
+### voiceover\_v8 Type
+
+`object` ([Details](marketplace_v1-properties-analysis-properties-voiceover_v8.md))
 
 ## transformerCaption\_v1
 
@@ -238,15 +238,15 @@ https://github.com/cyanite-ai/aws-marketplace/[...]/v1/schema/marketplace_v1.sch
 
 *   is required
 
-*   Type: `string`
+*   Type: `object` ([Details](marketplace_v1-properties-analysis-properties-transformercaption_v1.md))
 
 *   cannot be null
 
-*   defined in: [marketplace\_v1](marketplace_v1-properties-analysis-properties-transformercaption_v1.md "https://github.com/cyanite-ai/aws-marketplace/\[...]/v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/transformerCaption_v1")
+*   defined in: [marketplace\_v1](marketplace_v1-properties-analysis-properties-transformercaption_v1.md "https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/transformerCaption_v1")
 
 ### transformerCaption\_v1 Type
 
-`string`
+`object` ([Details](marketplace_v1-properties-analysis-properties-transformercaption_v1.md))
 
 ## transformerGenreTags\_v1
 
@@ -256,12 +256,12 @@ https://github.com/cyanite-ai/aws-marketplace/[...]/v1/schema/marketplace_v1.sch
 
 *   is required
 
-*   Type: `string`
+*   Type: `object` ([Details](marketplace_v1-properties-analysis-properties-transformergenretags_v1.md))
 
 *   cannot be null
 
-*   defined in: [marketplace\_v1](marketplace_v1-properties-analysis-properties-transformergenretags_v1.md "https://github.com/cyanite-ai/aws-marketplace/\[...]/v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/transformerGenreTags_v1")
+*   defined in: [marketplace\_v1](marketplace_v1-properties-analysis-properties-transformergenretags_v1.md "https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/transformerGenreTags_v1")
 
 ### transformerGenreTags\_v1 Type
 
-`string`
+`object` ([Details](marketplace_v1-properties-analysis-properties-transformergenretags_v1.md))

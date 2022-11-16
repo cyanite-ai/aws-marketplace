@@ -42,11 +42,11 @@ AWS Marketplace containers can be deployed in three ways:
 __Important__:
 - For real-time inference, the maximum payload size of _6MB_ is eqivalent to a 2.5min 320kbit/s MP3 or 6min 128kbit/s MP3
 - For real-time inference, the 60s timeout may exceed needed processing time for longer audios using cpu-bound machines
-- to circumvent these limitations, we recommend using asynchronous inference
+- to circumvent these limitations, we recommend using asynchronous inference  
 
 For more information on deployment, please refer to the [Sagemaker Documentation](https://docs.aws.amazon.com/sagemaker/latest/dg/deploy-model.html).
 
-The Audio Analyzer supports a variety of file formats: `mp3`, `wav`, `m4a`, `mp4` and `mpga`. Audio can either be mono or stereo and should have at least a bitrate of 128kbit/s for MP3 files or comparable for other formats.
+The Audio Analyzer supports a variety of file formats: `mp3`, `wav`, `m4a`, `mp4` and `mpga`. Audio can either be mono or stereo and should have at least a bitrate of 128kbit/s for MP3 files or comparable for other formats. Audio files should not exceed a length of 15 minutes. For longer tracks, the analysis will be done on the first 15 minutes of the audio signal.  
 
 Calling the server is done via REST. We recommend using the [Sagemaker Python SDK](https://sagemaker.readthedocs.io) for handling invocations.
 Audio data is expected to be send as binary data within the data field of a POST request.  

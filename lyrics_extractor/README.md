@@ -5,7 +5,7 @@
 2. [Quickstart Guide](#quickstart)
 3. [Usage](#usage)
 4. [Output Specification](#outputspec)
-5. [Runtime Benchmarks](#runtime)
+
 
 ___
 <a name="overview"></a>
@@ -61,31 +61,6 @@ The container returns json-formatted output.
 
 <!--- created with https://github.com/adobe/jsonschema2md --->
 
-| Version | Raw Schema | Documentation | Example Output
-| :--- | :--- | :--- | :--- |
-| marketplace_v1 | [here](schemes/marketplace_v1/schema/marketplace_v1.schema.json) | [here](schemes/marketplace_v1/documentation/marketplace_v1.md) | [here](schemes/marketplace_v1/example/marketplace_v1_example_output.json) |
-
-___
-<a name="runtime"></a>
-### Runtime Benchmarks:
-
-This section provides runtime benchmarks for all available marketplace versions. Runtime benchmarks will be provided for all available batch inference instance types. Please note that depending on the input, runtime may vary slightly from the benchmark values. 
-
-For more information on instance types, please visit [SageMaker pricing](https://aws.amazon.com/sagemaker/pricing/). 
-
-<details>
-  <summary>marketplace_v1</summary>
-
-Table:
-    
-- Table colums refer to different lenghts of the input audio file.
-    
-| Instance Type | 30s | 45s | 60s | 75s | 90s | 105s | 120s | 135s | 150s | 165s | 180s | 210s | 240s | 270s | 300s |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| m5.xlarge (CPU) | 5.7s | 6.7s | 7.8s | 8.6s | 10.1s | 10.7s | 12.0s | 13.2s | 14.3s | 15.4s | 18.0s | 20.6s | 23.3s | 24.7s | 28.3s |
-| p2.xlarge (GPU) | 5.5s | 6.0s | 6.1s | 6.7s | 6.8s | 7.1s | 7.3s | 7.4s | 7.6s | 7.8s | 8.7s | 9.7s | 10.0s | 10.7s | 11.2s |
-
-Plot:    
-<img src="images/benchmark/benchmark_marketplace_v1.png" alt="benchmark_marketplace_v1" width="50%"/>
-</details>
-
+| Version | Raw Schema |  Example Output
+| :--- | :--- | :--- |
+| marketplace_v1 | [here](schemes/marketplace_v1/schema/marketplace_v1.schema.json) | [here](schemes/marketplace_v1/example/marketplace_v1_example_output.json) |

@@ -574,7 +574,7 @@ ___
 | tags | String describing the global key value | 
 | confidence | number describing the confidence of the prediction |
 
-`timeSignature` is a multi-label classifier predicting the global key for a track.
+`key` is a multi-label classifier predicting the global key for a track.
 
 
 ___

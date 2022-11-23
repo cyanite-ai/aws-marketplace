@@ -11,6 +11,4 @@ ___
 | Product | Documentation |
 | :------------- |:-------------: |
 | Audio Analyzer | [click here](audio_analyzer) |   
-
-
-
+| Lyrics Extractor | [click here](lyrics_extractor) |

@@ -72,15 +72,13 @@ ___
 
 This section provides runtime benchmarks for all available lyrics extractor versions. Runtime benchmarks will be provided for all available batch inference instance types. Please note that depending on the input, runtime may vary strongly from the benchmark values. 
 
+For our inference benchmark, we used 100 full duration (3-10 min) commercial music pieces.
+
 For more information on instance types, please visit [SageMaker pricing](https://aws.amazon.com/sagemaker/pricing/). 
 
-<details>
-  <summary>marketplace_v1</summary>
-    
 
-Plot:    
 <p float="left">
-  <img src="examples/batch_outputs.jpg" width="100" />
-  <img src="examples/batch_outputs_gpu.jpg" width="100" /> 
+  <img src="examples/batch_outputs.jpg" width="500" />
+  <img src="examples/batch_outputs_gpu.jpg" width="500" /> 
 </p>
 

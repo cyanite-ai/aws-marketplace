@@ -5,7 +5,7 @@
 2. [Quickstart Guide](#quickstart)
 3. [Usage](#usage)
 4. [Output Specification](#outputspec)
-
+5. [Runtime Benchmarks](#runtime)
 
 ___
 <a name="overview"></a>

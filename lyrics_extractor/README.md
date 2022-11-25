@@ -64,3 +64,23 @@ The container returns json-formatted output.
 | Version | Raw Schema |  Example Output
 | :--- | :--- | :--- |
 | marketplace_v1 | [here](schemes/marketplace_v1/schema/marketplace_v1.schema.json) | [here](schemes/marketplace_v1/example/marketplace_v1_example_output.json) |
+
+
+___
+<a name="runtime"></a>
+### Runtime Benchmarks:
+
+This section provides runtime benchmarks for all available lyrics extractor versions. Runtime benchmarks will be provided for all available batch inference instance types. Please note that depending on the input, runtime may vary strongly from the benchmark values. 
+
+For more information on instance types, please visit [SageMaker pricing](https://aws.amazon.com/sagemaker/pricing/). 
+
+<details>
+  <summary>marketplace_v1</summary>
+    
+
+Plot:    
+<p float="left">
+  <img src="examples/batch_outputs.jpg" width="100" />
+  <img src="examples/batch_outputs_gpu.jpg" width="100" /> 
+</p>
+

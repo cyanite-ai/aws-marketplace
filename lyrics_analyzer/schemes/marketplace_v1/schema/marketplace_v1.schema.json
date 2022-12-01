@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "extractedLyrics": {
+      "type": "string"
+    },
+    "extractedLyrics_en": {
+      "type": "string"
+    },
+    "detectedLanguage": {
+      "type": "string"
+    },
+    "explicitness": {
+      "type": "object",
+      "properties": {
+        "toxicity": {
+          "type": "number"
+        },
+        "severe_toxicity": {
+          "type": "number"
+        },
+        "obscene": {
+          "type": "number"
+        },
+        "threat": {
+          "type": "number"
+        },
+        "insult": {
+          "type": "number"
+        },
+        "identity_attack": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "toxicity",
+        "severe_toxicity",
+        "obscene",
+        "threat",
+        "insult",
+        "identity_attack"
+      ]
+    }
+  },
+  "required": [
+    "extractedLyrics",
+    "extractedLyrics_en",
+    "detectedLanguage",
+    "explicitness"
+  ]
+}

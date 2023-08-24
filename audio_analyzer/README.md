@@ -38,7 +38,7 @@ AWS Marketplace containers can be deployed in three ways:
 | :------------- | :------------- | :------------- |
 | Real-time Inference | 6 MB | 60 seconds |
 | Asynchronous Inference | 500 MB | 15 minutes |
-| Batch Transformation | 100 MB | Unlimited |
+| Batch Transformation | 100 MB | 60 minutes |
 
 __Important__:
 - For real-time inference, the maximum payload size of _6MB_ is eqivalent to a 2.5min 320kbit/s MP3 or 6min 128kbit/s MP3
@@ -65,7 +65,7 @@ The container returns json-formatted output.
 
 | Version | Raw Schema | Documentation | Example Output
 | :--- | :--- | :--- | :--- |
-| marketplace_v1 | [here](schemes/marketplace_v1/schema/marketplace_v1.schema.json) | [here](schemes/marketplace_v1/documentation/marketplace_v1.md) | [here](schemes/marketplace_v1/example/marketplace_v1_example_output.json) |
+| marketplace_v1.1 | [here](schemes/marketplace_v1.1/schema/marketplace_v1.1.schema.json) | [here](schemes/marketplace_v1.1/documentation/marketplace_v1.md) | [here](schemes/marketplace_v1.1/example/marketplace_v1.1_example_output.json) |
 
 ___
 <a name="runtime"></a>
@@ -76,7 +76,7 @@ This section provides runtime benchmarks for all available marketplace versions.
 For more information on instance types, please visit [SageMaker pricing](https://aws.amazon.com/sagemaker/pricing/). 
 
 <details>
-  <summary>marketplace_v1</summary>
+  <summary>marketplace_v1.1</summary>
 
 Table:
     
@@ -84,10 +84,10 @@ Table:
     
 | Instance Type | 30s | 45s | 60s | 75s | 90s | 105s | 120s | 135s | 150s | 165s | 180s | 210s | 240s | 270s | 300s |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| m5.xlarge (CPU) | 5.7s | 6.7s | 7.8s | 8.6s | 10.1s | 10.7s | 12.0s | 13.2s | 14.3s | 15.4s | 18.0s | 20.6s | 23.3s | 24.7s | 28.3s |
-| p2.xlarge (GPU) | 5.5s | 6.0s | 6.1s | 6.7s | 6.8s | 7.1s | 7.3s | 7.4s | 7.6s | 7.8s | 8.7s | 9.7s | 10.0s | 10.7s | 11.2s |
+| m5.xlarge (CPU) | 3.1s | 4.1s | 4.1s | 5.2s | 6.2s | 6.2s | 7.2s | 8.2s | 8.3s | 9.2s | 10.3s | 12.3s | 13.2s | 14.3s | 15.3s |
+| c5.2xlarge (CPU) | 2.1s | 3.1s | 3.1s | 3.2s | 4.2s | 4.2s | 4.2s | 5.2s | 5.2s | 6.3s | 6.3s | 7.3s | 8.2s | 8.3s | 9.3s |
 
 Plot:    
-<img src="images/benchmark/benchmark_marketplace_v1.png" alt="benchmark_marketplace_v1" width="50%"/>
+<img src="images/benchmark/benchmark_marketplace_v1.1.png" alt="benchmark_marketplace_v1.1" width="50%"/>
 </details>
 

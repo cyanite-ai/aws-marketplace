@@ -6,7 +6,7 @@ This is the documentation for the Cyanite Audio Analyzer output features.
 
 The feature matrix can be used to look up which marketplace version corresponds to which feature versions.
 
-| | marketplace_v1 | 
+| | marketplace_v1.1 | 
 | :--- | :--- |
 | [transformerCaption](#transformercaption)   | v8 |
 | [transformerGenreTags](#transformergenretags) | v8 |          
@@ -19,14 +19,15 @@ The feature matrix can be used to look up which marketplace version corresponds 
 | [voice](#voice) | v8 |                                
 | [valenceArousal](#valencearousal) | v8 |                                         
 | [musicalEra](#musicalera) | v8 |                                     
-| [musicalFeatures](#musicalfeatures) | v8 |                                          
+| [musicalFeatures](#musicalfeatures) | v8 |                                       
 | [voiceover](#voiceover) | v8 |                                    
+| [augmentedKeywords](#augmentedkeywords) | v8 |                                    
 
 
 #### JSON Schemes:
 | Version | Raw Schema | Documentation | Example Output
 | :--- | :--- | :--- | :--- |
-| marketplace_v1 | [here](schemes/marketplace_v1/schema/marketplace_v1.schema.json) | [here](schemes/marketplace_v1/documentation/marketplace_v1.md) | [here](schemes/marketplace_v1/example/marketplace_v1_example_output.json) |
+| marketplace_v1.1 | [here](schemes/marketplace_v1.1/schema/marketplace_v1.1.schema.json) | [here](schemes/marketplace_v1.1/documentation/marketplace_v1.md) | [here](schemes/marketplace_v1.1/example/marketplace_v1.1_example_output.json) |
 
 
 ___
@@ -82,7 +83,7 @@ The genre object combines results of several dependent classifiers.
 | mean | Mean probabilites for each class over the whole track | 
 | segments | Array of probabilities for each class and segment | 
 
-The `mainGenre` is a multi-label classifier, predicting a per segment probability within the range of $[0,1]$ for each of the 22 main genre classes:
+The `mainGenre` is a multi-label classifier, predicting a per segment probability within the range of $[0,1]$ for each of the 23 main genre classes:
 
 <details>
   <summary>Click to Expand</summary>
@@ -92,6 +93,7 @@ The `mainGenre` is a multi-label classifier, predicting a per segment probabilit
  - `arab`
  - `asian`
  - `blues`
+ - `childrenJingle`
  - `classical`
  - `electronicDance`
  - `folkCountry`
@@ -204,19 +206,19 @@ The `mood_model` is a multi-label classifier, predicting a per segment probabili
 <details>
   <summary>Click to Expand</summary>
     
- - `energetic`
- - `uplifting`
- - `happy`
- - `chilled`
- - `calm`
- - `sad`
- - `dark`
  - `aggressive`
- - `sexy`
- - `romantic`
- - `spherical`
- - `scary`
+ - `calm`
+ - `chilled`
+ - `dark`
+ - `energetic`
  - `epic`
+ - `ethereal`
+ - `happy`
+ - `romantic`
+ - `sad`
+ - `scary`
+ - `sexy`
+ - `uplifting`
  
 </details>
 
@@ -465,15 +467,50 @@ There are models available for the following instruments:
 <details>
   <summary>Click to Expand</summary>
 
-  - `percussion`
-  - `synth`
-  - `piano`
   - `acousticGuitar`
-  - `electricGuitar` 
-  - `strings`
+  - `africanPercussion`
+  - `asianFlute`
+  - `asianStrings`
+  - `banjo`
   - `bass` (= Analog / Digital / Bass Guitar, etc.)
-  - `bassGuitar` 
-  - `brass` 
+  - `bassGuitar`
+  - `bells`
+  - `bongoConga`
+  - `brass`
+  - `churchOrgan`
+  - `celeste`
+  - `cello`
+  - `clarinet`
+  - `doubleBass`
+  - `drumKit`
+  - `electricGuitar`
+  - `electricOrgan`
+  - `electricPiano`
+  - `drumMachine`
+  - `flute`
+  - `frenchHorn`
+  - `glockenspiel`
+  - `harp`
+  - `harpsichord`
+  - `luteOud`
+  - `mandolin`
+  - `marimba`
+  - `oboe`
+  - `percussion`
+  - `piano`
+  - `pizzicato`
+  - `sax`
+  - `sitar`
+  - `steelDrums`
+  - `strings`
+  - `synth`
+  - `tabla`
+  - `taiko`
+  - `trumpet`
+  - `tuba`
+  - `ukulele`
+  - `vibraphone`
+  - `violin`
   - `woodwinds`
   
 </details>
@@ -587,4 +624,51 @@ ___
 | isVoiceoverDominant | Boolean describing whether an audio is flagged as containing a considerable amount of voiceover |
 
 The voiceover classifier is a binary classifier that detects the likelihood of an audio file (specifically music) containing a voiceover as this might be the case when the audio is extracted from a video, advertisement or similar. In case of a voiceover present, we have seen decreasing performance in basically all analysis results. The voiceover score can therefore be used as an indicator for potentially noisy analysis results. 
+
+
+___
+<a name="augmentedKeywords"></a>
+### 13. `augmentedKeywords`
+
+| Features | Description |
+| :--- | :--- |
+| tags | Array of tags that were predicted globally | 
+
+The augmented keywords freely describe a track using 20 tags from a taxonomy of 1500 unique terms.
+
+Excerpt of available tags:
+
+<details>
+  <summary>Click to Expand</summary>
+
+  - `joy` 
+  - `travel` 
+  - `summer` 
+  - `motivating`
+  - `pleasant` 
+  - `happy` 
+  - `energetic` 
+  - `electro`
+  - `bliss`
+  - `gladness` 
+  - `auspicious` 
+  - `pleasure` 
+  - `forceful`
+  - `determined`
+  - `confident`
+  - `positive` 
+  - `optimistic`
+  - `agile`
+  - `animated` 
+  - `journey` 
+  - `party`
+  - `driving` 
+  - `kicking` 
+  - `impelling` 
+  - `upbeat`
+
+</details>
+
+
+
 

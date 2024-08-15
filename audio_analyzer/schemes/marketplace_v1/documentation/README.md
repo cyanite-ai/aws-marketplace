@@ -2,520 +2,698 @@
 
 ## Top-level Schemas
 
-*   [marketplace\_v1](./marketplace_v1.md "This schema describes the json object returned by the Cyanite Audio Analyzer for version marketplace_v1") – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json`
+* [TaggingV8](./taggingv8.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json`
 
 ## Other Schemas
 
 ### Objects
 
-*   [Untitled object in marketplace\_v1](./marketplace_v1-properties-analysis.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis`
+* [AudioFileInfoV1](./taggingv8-defs-audiofileinfov1.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/AudioFileInfoV1`
 
-*   [Untitled object in marketplace\_v1](./marketplace_v1-properties-analysis-properties-genre_v8.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/genre_v8`
+* [AutoDescriptionV2](./taggingv8-defs-autodescriptionv2.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/AutoDescriptionV2`
 
-*   [Untitled object in marketplace\_v1](./marketplace_v1-properties-analysis-properties-genre_v8-properties-segmentsmaingenre.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/genre_v8/properties/segmentsMainGenre`
+* [BpmV1](./taggingv8-defs-bpmv1.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/BpmV1`
 
-*   [Untitled object in marketplace\_v1](./marketplace_v1-properties-analysis-properties-genre_v8-properties-meanmaingenre.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/genre_v8/properties/meanMainGenre`
+* [CharacterScoresV1](./taggingv8-defs-characterscoresv1.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/CharacterScoresV1`
 
-*   [Untitled object in marketplace\_v1](./marketplace_v1-properties-analysis-properties-genre_v8-properties-segmentssubgenre.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/genre_v8/properties/segmentsSubgenre`
+* [CharacterSegmentsV1](./taggingv8-defs-charactersegmentsv1.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/CharacterSegmentsV1`
 
-*   [Untitled object in marketplace\_v1](./marketplace_v1-properties-analysis-properties-genre_v8-properties-meansubgenre.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/genre_v8/properties/meanSubgenre`
+* [CharacterV1](./taggingv8-defs-characterv1.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/CharacterV1`
 
-*   [Untitled object in marketplace\_v1](./marketplace_v1-properties-analysis-properties-mood_v8.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/mood_v8`
+* [FreeGenreV2](./taggingv8-defs-freegenrev2.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/FreeGenreV2`
 
-*   [Untitled object in marketplace\_v1](./marketplace_v1-properties-analysis-properties-mood_v8-properties-mean.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/mood_v8/properties/mean`
+* [InstrumentPresenceV1](./taggingv8-defs-instrumentpresencev1.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentPresenceV1`
 
-*   [Untitled object in marketplace\_v1](./marketplace_v1-properties-analysis-properties-mood_v8-properties-segments.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/mood_v8/properties/segments`
+* [InstrumentSegmentsV1](./taggingv8-defs-instrumentsegmentsv1.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1`
 
-*   [Untitled object in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8`
+* [InstrumentV1](./taggingv8-defs-instrumentv1.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentV1`
 
-*   [Untitled object in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-mean.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/mean`
+* [KeyV1](./taggingv8-defs-keyv1.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/KeyV1`
 
-*   [Untitled object in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments`
+* [MaingenreScoresV1](./taggingv8-defs-maingenrescoresv1.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MaingenreScoresV1`
 
-*   [Untitled object in marketplace\_v1](./marketplace_v1-properties-analysis-properties-character_v8.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/character_v8`
+* [MaingenreSegmentsV1](./taggingv8-defs-maingenresegmentsv1.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MaingenreSegmentsV1`
 
-*   [Untitled object in marketplace\_v1](./marketplace_v1-properties-analysis-properties-character_v8-properties-mean.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/character_v8/properties/mean`
+* [MaingenreV1](./taggingv8-defs-maingenrev1.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MaingenreV1`
 
-*   [Untitled object in marketplace\_v1](./marketplace_v1-properties-analysis-properties-character_v8-properties-segments.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/character_v8/properties/segments`
+* [MoodAdvancedScoresV1](./taggingv8-defs-moodadvancedscoresv1.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedScoresV1`
 
-*   [Untitled object in marketplace\_v1](./marketplace_v1-properties-analysis-properties-movement_v8.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/movement_v8`
+* [MoodAdvancedSegmentsV1](./taggingv8-defs-moodadvancedsegmentsv1.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1`
 
-*   [Untitled object in marketplace\_v1](./marketplace_v1-properties-analysis-properties-movement_v8-properties-mean.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/movement_v8/properties/mean`
+* [MoodAdvancedV1](./taggingv8-defs-moodadvancedv1.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedV1`
 
-*   [Untitled object in marketplace\_v1](./marketplace_v1-properties-analysis-properties-movement_v8-properties-segments.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/movement_v8/properties/segments`
+* [MoodSimpleScoresV1](./taggingv8-defs-moodsimplescoresv1.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodSimpleScoresV1`
 
-*   [Untitled object in marketplace\_v1](./marketplace_v1-properties-analysis-properties-instruments_v8.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/instruments_v8`
+* [MoodSimpleSegmentsV1](./taggingv8-defs-moodsimplesegmentsv1.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodSimpleSegmentsV1`
 
-*   [Untitled object in marketplace\_v1](./marketplace_v1-properties-analysis-properties-instruments_v8-properties-segments.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/instruments_v8/properties/segments`
+* [MoodSimpleV1](./taggingv8-defs-moodsimplev1.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodSimpleV1`
 
-*   [Untitled object in marketplace\_v1](./marketplace_v1-properties-analysis-properties-instruments_v8-properties-presence.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/instruments_v8/properties/presence`
+* [MovementScoresV1](./taggingv8-defs-movementscoresv1.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MovementScoresV1`
 
-*   [Untitled object in marketplace\_v1](./marketplace_v1-properties-analysis-properties-voice_v8.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/voice_v8`
+* [MovementSegmentsV1](./taggingv8-defs-movementsegmentsv1.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MovementSegmentsV1`
 
-*   [Untitled object in marketplace\_v1](./marketplace_v1-properties-analysis-properties-voice_v8-properties-mean.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/voice_v8/properties/mean`
+* [MovementV1](./taggingv8-defs-movementv1.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MovementV1`
 
-*   [Untitled object in marketplace\_v1](./marketplace_v1-properties-analysis-properties-voice_v8-properties-segments.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/voice_v8/properties/segments`
+* [MusicalEraV1](./taggingv8-defs-musicalerav1.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MusicalEraV1`
 
-*   [Untitled object in marketplace\_v1](./marketplace_v1-properties-analysis-properties-valencearousal_v8.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/valenceArousal_v8`
+* [RepresentativeSegmentIndex15sV1](./taggingv8-defs-representativesegmentindex15sv1.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/RepresentativeSegmentIndex15sV1`
 
-*   [Untitled object in marketplace\_v1](./marketplace_v1-properties-analysis-properties-valencearousal_v8-properties-mean.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/valenceArousal_v8/properties/mean`
+* [SubgenreScoresV1](./taggingv8-defs-subgenrescoresv1.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreScoresV1`
 
-*   [Untitled object in marketplace\_v1](./marketplace_v1-properties-analysis-properties-valencearousal_v8-properties-segments.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/valenceArousal_v8/properties/segments`
+* [SubgenreSegmentsV1](./taggingv8-defs-subgenresegmentsv1.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1`
 
-*   [Untitled object in marketplace\_v1](./marketplace_v1-properties-analysis-properties-musicalera_v8.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/musicalEra_v8`
+* [SubgenreV1](./taggingv8-defs-subgenrev1.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreV1`
 
-*   [Untitled object in marketplace\_v1](./marketplace_v1-properties-analysis-properties-musicalfeatures_v8.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/musicalFeatures_v8`
+* [TimeSignatureV1](./taggingv8-defs-timesignaturev1.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/TimeSignatureV1`
 
-*   [Untitled object in marketplace\_v1](./marketplace_v1-properties-analysis-properties-musicalfeatures_v8-properties-bpm.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/musicalFeatures_v8/properties/bpm`
+* [Timestamps15sV1](./taggingv8-defs-timestamps15sv1.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/Timestamps15sV1`
 
-*   [Untitled object in marketplace\_v1](./marketplace_v1-properties-analysis-properties-musicalfeatures_v8-properties-key.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/musicalFeatures_v8/properties/key`
+* [ValenceArousalScoresV1](./taggingv8-defs-valencearousalscoresv1.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/ValenceArousalScoresV1`
 
-*   [Untitled object in marketplace\_v1](./marketplace_v1-properties-analysis-properties-voiceover_v8.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/voiceover_v8`
+* [ValenceArousalSegmentsV1](./taggingv8-defs-valencearousalsegmentsv1.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/ValenceArousalSegmentsV1`
 
-*   [Untitled object in marketplace\_v1](./marketplace_v1-properties-analysis-properties-transformercaption_v1.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/transformerCaption_v1`
+* [ValenceArousalV1](./taggingv8-defs-valencearousalv1.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/ValenceArousalV1`
 
-*   [Untitled object in marketplace\_v1](./marketplace_v1-properties-analysis-properties-transformergenretags_v1.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/transformerGenreTags_v1`
+* [VocalScoresV1](./taggingv8-defs-vocalscoresv1.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/VocalScoresV1`
+
+* [VocalSegmentsV1](./taggingv8-defs-vocalsegmentsv1.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/VocalSegmentsV1`
+
+* [VocalV1](./taggingv8-defs-vocalv1.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/VocalV1`
+
+* [VoiceoverV1](./taggingv8-defs-voiceoverv1.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/VoiceoverV1`
 
 ### Arrays
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-genre_v8-properties-segmentsmaingenre-properties-afro.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/genre_v8/properties/segmentsMainGenre/properties/Afro`
+* [Accordion](./taggingv8-defs-instrumentsegmentsv1-properties-accordion.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/accordion`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-genre_v8-properties-segmentsmaingenre-properties-ambient.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/genre_v8/properties/segmentsMainGenre/properties/ambient`
+* [Acousticguitar](./taggingv8-defs-instrumentsegmentsv1-properties-acousticguitar.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/acousticGuitar`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-genre_v8-properties-segmentsmaingenre-properties-arab.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/genre_v8/properties/segmentsMainGenre/properties/arab`
+* [Adventurous](./taggingv8-defs-moodadvancedsegmentsv1-properties-adventurous.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/adventurous`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-genre_v8-properties-segmentsmaingenre-properties-asian.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/genre_v8/properties/segmentsMainGenre/properties/asian`
+* [African](./taggingv8-defs-maingenresegmentsv1-properties-african.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MaingenreSegmentsV1/properties/african`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-genre_v8-properties-segmentsmaingenre-properties-blues.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/genre_v8/properties/segmentsMainGenre/properties/blues`
+* [Africanpercussion](./taggingv8-defs-instrumentsegmentsv1-properties-africanpercussion.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/africanPercussion`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-genre_v8-properties-segmentsmaingenre-properties-children.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/genre_v8/properties/segmentsMainGenre/properties/children`
+* [Aggressive](./taggingv8-defs-moodadvancedsegmentsv1-properties-aggressive.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/aggressive`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-genre_v8-properties-segmentsmaingenre-properties-classical.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/genre_v8/properties/segmentsMainGenre/properties/classical`
+* [Aggressive](./taggingv8-defs-moodsimplesegmentsv1-properties-aggressive.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodSimpleSegmentsV1/properties/aggressive`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-genre_v8-properties-segmentsmaingenre-properties-electronicdance.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/genre_v8/properties/segmentsMainGenre/properties/electronicDance`
+* [Agitated](./taggingv8-defs-moodadvancedsegmentsv1-properties-agitated.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/agitated`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-genre_v8-properties-segmentsmaingenre-properties-folkcountry.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/genre_v8/properties/segmentsMainGenre/properties/folkCountry`
+* [Ambient](./taggingv8-defs-maingenresegmentsv1-properties-ambient.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MaingenreSegmentsV1/properties/ambient`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-genre_v8-properties-segmentsmaingenre-properties-funksoul.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/genre_v8/properties/segmentsMainGenre/properties/funkSoul`
+* [Angry](./taggingv8-defs-moodadvancedsegmentsv1-properties-angry.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/angry`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-genre_v8-properties-segmentsmaingenre-properties-indian.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/genre_v8/properties/segmentsMainGenre/properties/indian`
+* [Anthemic](./taggingv8-defs-moodadvancedsegmentsv1-properties-anthemic.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/anthemic`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-genre_v8-properties-segmentsmaingenre-properties-jazz.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/genre_v8/properties/segmentsMainGenre/properties/jazz`
+* [Anxious](./taggingv8-defs-moodadvancedsegmentsv1-properties-anxious.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/anxious`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-genre_v8-properties-segmentsmaingenre-properties-latin.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/genre_v8/properties/segmentsMainGenre/properties/latin`
+* [Arousal](./taggingv8-defs-valencearousalsegmentsv1-properties-arousal.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/ValenceArousalSegmentsV1/properties/arousal`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-genre_v8-properties-segmentsmaingenre-properties-metal.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/genre_v8/properties/segmentsMainGenre/properties/metal`
+* [Asian](./taggingv8-defs-maingenresegmentsv1-properties-asian.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MaingenreSegmentsV1/properties/asian`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-genre_v8-properties-segmentsmaingenre-properties-pop.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/genre_v8/properties/segmentsMainGenre/properties/pop`
+* [Asianflute](./taggingv8-defs-instrumentsegmentsv1-properties-asianflute.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/asianFlute`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-genre_v8-properties-segmentsmaingenre-properties-raphiphop.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/genre_v8/properties/segmentsMainGenre/properties/rapHipHop`
+* [Asianstrings](./taggingv8-defs-instrumentsegmentsv1-properties-asianstrings.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/asianStrings`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-genre_v8-properties-segmentsmaingenre-properties-reggae.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/genre_v8/properties/segmentsMainGenre/properties/reggae`
+* [Aweinspiring](./taggingv8-defs-moodadvancedsegmentsv1-properties-aweinspiring.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/aweInspiring`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-genre_v8-properties-segmentsmaingenre-properties-rnb.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/genre_v8/properties/segmentsMainGenre/properties/rnb`
+* [Banjo](./taggingv8-defs-instrumentsegmentsv1-properties-banjo.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/banjo`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-genre_v8-properties-segmentsmaingenre-properties-rock.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/genre_v8/properties/segmentsMainGenre/properties/rock`
+* [Barren](./taggingv8-defs-moodadvancedsegmentsv1-properties-barren.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/barren`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-genre_v8-properties-segmentsmaingenre-properties-singersongwriter.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/genre_v8/properties/segmentsMainGenre/properties/singerSongwriter`
+* [Bass](./taggingv8-defs-instrumentsegmentsv1-properties-bass.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/bass`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-genre_v8-properties-segmentsmaingenre-properties-sound.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/genre_v8/properties/segmentsMainGenre/properties/sound`
+* [Bassguitar](./taggingv8-defs-instrumentsegmentsv1-properties-bassguitar.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/bassGuitar`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-genre_v8-properties-segmentsmaingenre-properties-soundtrack.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/genre_v8/properties/segmentsMainGenre/properties/soundtrack`
+* [Bells](./taggingv8-defs-instrumentsegmentsv1-properties-bells.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/bells`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-genre_v8-properties-segmentsmaingenre-properties-spokenword.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/genre_v8/properties/segmentsMainGenre/properties/spokenWord`
+* [Bittersweet](./taggingv8-defs-moodadvancedsegmentsv1-properties-bittersweet.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/bittersweet`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-genre_v8-properties-tagsmaingenre.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/genre_v8/properties/tagsMainGenre`
+* [Blue](./taggingv8-defs-moodadvancedsegmentsv1-properties-blue.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/blue`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-genre_v8-properties-tagssubgenre.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/genre_v8/properties/tagsSubgenre`
+* [Blues](./taggingv8-defs-maingenresegmentsv1-properties-blues.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MaingenreSegmentsV1/properties/blues`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-mood_v8-properties-tags.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/mood_v8/properties/tags`
+* [Boingy](./taggingv8-defs-moodadvancedsegmentsv1-properties-boingy.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/boingy`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-mood_v8-properties-segments-properties-aggressive.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/mood_v8/properties/segments/properties/aggressive`
+* [Boisterous](./taggingv8-defs-moodadvancedsegmentsv1-properties-boisterous.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/boisterous`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-mood_v8-properties-segments-properties-calm.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/mood_v8/properties/segments/properties/calm`
+* [Bold](./taggingv8-defs-charactersegmentsv1-properties-bold.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/CharacterSegmentsV1/properties/bold`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-mood_v8-properties-segments-properties-chilled.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/mood_v8/properties/segments/properties/chilled`
+* [Bongoconga](./taggingv8-defs-instrumentsegmentsv1-properties-bongoconga.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/bongoConga`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-mood_v8-properties-segments-properties-dark.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/mood_v8/properties/segments/properties/dark`
+* [Bouncing](./taggingv8-defs-movementsegmentsv1-properties-bouncing.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MovementSegmentsV1/properties/bouncing`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-mood_v8-properties-segments-properties-energetic.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/mood_v8/properties/segments/properties/energetic`
+* [Brass](./taggingv8-defs-instrumentsegmentsv1-properties-brass.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/brass`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-mood_v8-properties-segments-properties-epic.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/mood_v8/properties/segments/properties/epic`
+* [Bright](./taggingv8-defs-moodadvancedsegmentsv1-properties-bright.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/bright`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-mood_v8-properties-segments-properties-happy.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/mood_v8/properties/segments/properties/happy`
+* [Calm](./taggingv8-defs-moodadvancedsegmentsv1-properties-calm.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/calm`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-mood_v8-properties-segments-properties-romantic.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/mood_v8/properties/segments/properties/romantic`
+* [Calm](./taggingv8-defs-moodsimplesegmentsv1-properties-calm.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodSimpleSegmentsV1/properties/calm`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-mood_v8-properties-segments-properties-sad.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/mood_v8/properties/segments/properties/sad`
+* [Celebratory](./taggingv8-defs-moodadvancedsegmentsv1-properties-celebratory.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/celebratory`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-mood_v8-properties-segments-properties-scary.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/mood_v8/properties/segments/properties/scary`
+* [Celeste](./taggingv8-defs-instrumentsegmentsv1-properties-celeste.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/celeste`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-mood_v8-properties-segments-properties-sexy.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/mood_v8/properties/segments/properties/sexy`
+* [Cello](./taggingv8-defs-instrumentsegmentsv1-properties-cello.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/cello`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-mood_v8-properties-segments-properties-spherical.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/mood_v8/properties/segments/properties/spherical`
+* [Cheerful](./taggingv8-defs-moodadvancedsegmentsv1-properties-cheerful.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/cheerful`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-mood_v8-properties-segments-properties-uplifting.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/mood_v8/properties/segments/properties/uplifting`
+* [Childrenjingle](./taggingv8-defs-maingenresegmentsv1-properties-childrenjingle.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MaingenreSegmentsV1/properties/childrenJingle`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-tags.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/tags`
+* [Chill](./taggingv8-defs-moodsimplesegmentsv1-properties-chill.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodSimpleSegmentsV1/properties/chill`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-anxious.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/anxious`
+* [Churchorgan](./taggingv8-defs-instrumentsegmentsv1-properties-churchorgan.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/churchOrgan`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-barren.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/barren`
+* [Clarinet](./taggingv8-defs-instrumentsegmentsv1-properties-clarinet.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/clarinet`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-cold.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/cold`
+* [Classical](./taggingv8-defs-maingenresegmentsv1-properties-classical.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MaingenreSegmentsV1/properties/classical`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-creepy.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/creepy`
+* [Cold](./taggingv8-defs-moodadvancedsegmentsv1-properties-cold.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/cold`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-dark.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/dark`
+* [Comedic](./taggingv8-defs-moodadvancedsegmentsv1-properties-comedic.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/comedic`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-disturbing.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/disturbing`
+* [Concerned](./taggingv8-defs-moodadvancedsegmentsv1-properties-concerned.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/concerned`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-eerie.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/eerie`
+* [Confident](./taggingv8-defs-moodadvancedsegmentsv1-properties-confident.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/confident`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-evil.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/evil`
+* [Contented](./taggingv8-defs-moodadvancedsegmentsv1-properties-contented.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/contented`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-fearful.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/fearful`
+* [Cool](./taggingv8-defs-charactersegmentsv1-properties-cool.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/CharacterSegmentsV1/properties/cool`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-mysterious.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/mysterious`
+* [Cool](./taggingv8-defs-moodadvancedsegmentsv1-properties-cool.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/cool`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-nervous.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/nervous`
+* [Courageous](./taggingv8-defs-moodadvancedsegmentsv1-properties-courageous.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/courageous`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-restless.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/restless`
+* [Creepy](./taggingv8-defs-moodadvancedsegmentsv1-properties-creepy.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/creepy`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-spooky.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/spooky`
+* [Dangerous](./taggingv8-defs-moodadvancedsegmentsv1-properties-dangerous.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/dangerous`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-strange.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/strange`
+* [Dark](./taggingv8-defs-moodadvancedsegmentsv1-properties-dark.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/dark`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-supernatural.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/supernatural`
+* [Dark](./taggingv8-defs-moodsimplesegmentsv1-properties-dark.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodSimpleSegmentsV1/properties/dark`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-suspenseful.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/suspenseful`
+* [Delicate](./taggingv8-defs-moodadvancedsegmentsv1-properties-delicate.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/delicate`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-tense.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/tense`
+* [Depressing](./taggingv8-defs-moodadvancedsegmentsv1-properties-depressing.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/depressing`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-weird.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/weird`
+* [Determined](./taggingv8-defs-moodadvancedsegmentsv1-properties-determined.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/determined`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-aggressive.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/aggressive`
+* [Dignified](./taggingv8-defs-moodadvancedsegmentsv1-properties-dignified.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/dignified`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-agitated.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/agitated`
+* [Disturbing](./taggingv8-defs-moodadvancedsegmentsv1-properties-disturbing.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/disturbing`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-angry.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/angry`
+* [Doublebass](./taggingv8-defs-instrumentsegmentsv1-properties-doublebass.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/doubleBass`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-dangerous.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/dangerous`
+* [Dreamy](./taggingv8-defs-moodadvancedsegmentsv1-properties-dreamy.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/dreamy`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-fiery.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/fiery`
+* [Driving](./taggingv8-defs-movementsegmentsv1-properties-driving.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MovementSegmentsV1/properties/driving`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-intense.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/intense`
+* [Drumkit](./taggingv8-defs-instrumentsegmentsv1-properties-drumkit.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/drumKit`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-passionate.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/passionate`
+* [Eccentric](./taggingv8-defs-moodadvancedsegmentsv1-properties-eccentric.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/eccentric`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-ponderous.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/ponderous`
+* [Eerie](./taggingv8-defs-moodadvancedsegmentsv1-properties-eerie.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/eerie`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-violent.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/violent`
+* [Electricguitar](./taggingv8-defs-instrumentsegmentsv1-properties-electricguitar.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/electricGuitar`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-comedic.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/comedic`
+* [Electricorgan](./taggingv8-defs-instrumentsegmentsv1-properties-electricorgan.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/electricOrgan`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-eccentric.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/eccentric`
+* [Electricpiano](./taggingv8-defs-instrumentsegmentsv1-properties-electricpiano.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/electricPiano`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-funny.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/funny`
+* [Electronic](./taggingv8-defs-maingenresegmentsv1-properties-electronic.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MaingenreSegmentsV1/properties/electronic`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-mischievous.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/mischievous`
+* [Electronicdrums](./taggingv8-defs-instrumentsegmentsv1-properties-electronicdrums.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/electronicDrums`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-quirky.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/quirky`
+* [Emotional](./taggingv8-defs-moodadvancedsegmentsv1-properties-emotional.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/emotional`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-whimsical.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/whimsical`
+* [Energetic](./taggingv8-defs-moodadvancedsegmentsv1-properties-energetic.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/energetic`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-boisterous.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/boisterous`
+* [Energetic](./taggingv8-defs-moodsimplesegmentsv1-properties-energetic.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodSimpleSegmentsV1/properties/energetic`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-boingy.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/boingy`
+* [Epic](./taggingv8-defs-charactersegmentsv1-properties-epic.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/CharacterSegmentsV1/properties/epic`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-bright.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/bright`
+* [Epic](./taggingv8-defs-moodadvancedsegmentsv1-properties-epic.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/epic`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-celebratory.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/celebratory`
+* [Epic](./taggingv8-defs-moodsimplesegmentsv1-properties-epic.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodSimpleSegmentsV1/properties/epic`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-cheerful.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/cheerful`
+* [Ethereal](./taggingv8-defs-charactersegmentsv1-properties-ethereal.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/CharacterSegmentsV1/properties/ethereal`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-excited.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/excited`
+* [Ethereal](./taggingv8-defs-moodsimplesegmentsv1-properties-ethereal.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodSimpleSegmentsV1/properties/ethereal`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-feelgood.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/feelGood`
+* [Euphoric](./taggingv8-defs-moodadvancedsegmentsv1-properties-euphoric.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/euphoric`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-fun.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/fun`
+* [Evil](./taggingv8-defs-moodadvancedsegmentsv1-properties-evil.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/evil`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-happy.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/happy`
+* [Excited](./taggingv8-defs-moodadvancedsegmentsv1-properties-excited.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/excited`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-joyous.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/joyous`
+* [Exciting](./taggingv8-defs-moodadvancedsegmentsv1-properties-exciting.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/exciting`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-lighthearted.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/lighthearted`
+* [Exhilarating](./taggingv8-defs-moodadvancedsegmentsv1-properties-exhilarating.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/exhilarating`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-perky.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/perky`
+* [Fearful](./taggingv8-defs-moodadvancedsegmentsv1-properties-fearful.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/fearful`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-playful.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/playful`
+* [Feelgood](./taggingv8-defs-moodadvancedsegmentsv1-properties-feelgood.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/feelGood`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-rollicking.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/rollicking`
+* [Female](./taggingv8-defs-vocalsegmentsv1-properties-female.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/VocalSegmentsV1/properties/female`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-upbeat.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/upbeat`
+* [Fiery](./taggingv8-defs-moodadvancedsegmentsv1-properties-fiery.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/fiery`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-calm.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/calm`
+* [Flowing](./taggingv8-defs-movementsegmentsv1-properties-flowing.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MovementSegmentsV1/properties/flowing`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-contented.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/contented`
+* [Flute](./taggingv8-defs-instrumentsegmentsv1-properties-flute.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/flute`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-dreamy.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/dreamy`
+* [Folkcountry](./taggingv8-defs-maingenresegmentsv1-properties-folkcountry.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MaingenreSegmentsV1/properties/folkCountry`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-introspective.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/introspective`
+* [Frenchhorn](./taggingv8-defs-instrumentsegmentsv1-properties-frenchhorn.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/frenchHorn`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-laidback.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/laidBack`
+* [Frightening](./taggingv8-defs-moodadvancedsegmentsv1-properties-frightening.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/frightening`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-leisurely.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/leisurely`
+* [Fun](./taggingv8-defs-moodadvancedsegmentsv1-properties-fun.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/fun`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-lyrical.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/lyrical`
+* [Funksoul](./taggingv8-defs-maingenresegmentsv1-properties-funksoul.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MaingenreSegmentsV1/properties/funkSoul`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-peaceful.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/peaceful`
+* [Funny](./taggingv8-defs-moodadvancedsegmentsv1-properties-funny.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/funny`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-quiet.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/quiet`
+* [Glockenspiel](./taggingv8-defs-instrumentsegmentsv1-properties-glockenspiel.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/glockenspiel`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-relaxed.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/relaxed`
+* [Gloomy](./taggingv8-defs-moodadvancedsegmentsv1-properties-gloomy.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/gloomy`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-serene.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/serene`
+* [Graceful](./taggingv8-defs-moodadvancedsegmentsv1-properties-graceful.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/graceful`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-soothing.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/soothing`
+* [Groovy](./taggingv8-defs-movementsegmentsv1-properties-groovy.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MovementSegmentsV1/properties/groovy`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-spiritual.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/spiritual`
+* [Happy](./taggingv8-defs-moodadvancedsegmentsv1-properties-happy.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/happy`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-tranquil.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/tranquil`
+* [Happy](./taggingv8-defs-moodsimplesegmentsv1-properties-happy.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodSimpleSegmentsV1/properties/happy`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-bittersweet.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/bittersweet`
+* [Harp](./taggingv8-defs-instrumentsegmentsv1-properties-harp.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/harp`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-blue.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/blue`
+* [Harpsichord](./taggingv8-defs-instrumentsegmentsv1-properties-harpsichord.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/harpsichord`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-depressing.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/depressing`
+* [Heavy](./taggingv8-defs-moodadvancedsegmentsv1-properties-heavy.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/heavy`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-gloomy.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/gloomy`
+* [Heroic](./taggingv8-defs-charactersegmentsv1-properties-heroic.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/CharacterSegmentsV1/properties/heroic`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-heavy.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/heavy`
+* [Heroic](./taggingv8-defs-moodadvancedsegmentsv1-properties-heroic.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/heroic`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-lonely.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/lonely`
+* [Hopeful](./taggingv8-defs-moodadvancedsegmentsv1-properties-hopeful.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/hopeful`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-melancholic.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/melancholic`
+* [Horror](./taggingv8-defs-moodadvancedsegmentsv1-properties-horror.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/horror`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-mournful.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/mournful`
+* [Indian](./taggingv8-defs-maingenresegmentsv1-properties-indian.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MaingenreSegmentsV1/properties/indian`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-poignant.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/poignant`
+* [Innocent](./taggingv8-defs-moodadvancedsegmentsv1-properties-innocent.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/innocent`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-sad.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/sad`
+* [Inspirational](./taggingv8-defs-moodadvancedsegmentsv1-properties-inspirational.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/inspirational`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-frightening.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/frightening`
+* [Instrumental](./taggingv8-defs-vocalsegmentsv1-properties-instrumental.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/VocalSegmentsV1/properties/instrumental`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-horror.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/horror`
+* [Intense](./taggingv8-defs-moodadvancedsegmentsv1-properties-intense.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/intense`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-menacing.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/menacing`
+* [Intimate](./taggingv8-defs-moodadvancedsegmentsv1-properties-intimate.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/intimate`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-nightmarish.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/nightmarish`
+* [Introspective](./taggingv8-defs-moodadvancedsegmentsv1-properties-introspective.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/introspective`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-ominous.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/ominous`
+* [Jazz](./taggingv8-defs-maingenresegmentsv1-properties-jazz.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MaingenreSegmentsV1/properties/jazz`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-panicstricken.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/panicStricken`
+* [Joyous](./taggingv8-defs-moodadvancedsegmentsv1-properties-joyous.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/joyous`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-scary.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/scary`
+* [Kind](./taggingv8-defs-moodadvancedsegmentsv1-properties-kind.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/kind`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-concerned.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/concerned`
+* [Laidback](./taggingv8-defs-moodadvancedsegmentsv1-properties-laidback.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/laidBack`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-determined.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/determined`
+* [Latin](./taggingv8-defs-maingenresegmentsv1-properties-latin.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MaingenreSegmentsV1/properties/latin`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-dignified.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/dignified`
+* [Leisurely](./taggingv8-defs-moodadvancedsegmentsv1-properties-leisurely.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/leisurely`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-emotional.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/emotional`
+* [Light](./taggingv8-defs-moodadvancedsegmentsv1-properties-light.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/light`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-noble.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/noble`
+* [Lighthearted](./taggingv8-defs-moodadvancedsegmentsv1-properties-lighthearted.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/lighthearted`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-serious.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/serious`
+* [Lonely](./taggingv8-defs-moodadvancedsegmentsv1-properties-lonely.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/lonely`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-solemn.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/solemn`
+* [Loving](./taggingv8-defs-moodadvancedsegmentsv1-properties-loving.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/loving`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-thoughtful.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/thoughtful`
+* [Luteoud](./taggingv8-defs-instrumentsegmentsv1-properties-luteoud.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/luteOud`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-cool.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/cool`
+* [Luxurious](./taggingv8-defs-charactersegmentsv1-properties-luxurious.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/CharacterSegmentsV1/properties/luxurious`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-seductive.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/seductive`
+* [Lyrical](./taggingv8-defs-moodadvancedsegmentsv1-properties-lyrical.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/lyrical`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-sexy.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/sexy`
+* [Magical](./taggingv8-defs-charactersegmentsv1-properties-magical.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/CharacterSegmentsV1/properties/magical`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-adventurous.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/adventurous`
+* [Majestic](./taggingv8-defs-moodadvancedsegmentsv1-properties-majestic.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/majestic`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-confident.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/confident`
+* [Male](./taggingv8-defs-vocalsegmentsv1-properties-male.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/VocalSegmentsV1/properties/male`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-courageous.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/courageous`
+* [Mandolin](./taggingv8-defs-instrumentsegmentsv1-properties-mandolin.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/mandolin`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-resolute.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/resolute`
+* [Marimba](./taggingv8-defs-instrumentsegmentsv1-properties-marimba.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/marimba`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-energetic.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/energetic`
+* [Melancholy](./taggingv8-defs-moodadvancedsegmentsv1-properties-melancholy.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/melancholy`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-epic.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/epic`
+* [Menacing](./taggingv8-defs-moodadvancedsegmentsv1-properties-menacing.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/menacing`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-exciting.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/exciting`
+* [Metal](./taggingv8-defs-maingenresegmentsv1-properties-metal.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MaingenreSegmentsV1/properties/metal`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-exhilarating.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/exhilarating`
+* [Middleeastern](./taggingv8-defs-maingenresegmentsv1-properties-middleeastern.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MaingenreSegmentsV1/properties/middleEastern`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-heroic.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/heroic`
+* [Mischievous](./taggingv8-defs-moodadvancedsegmentsv1-properties-mischievous.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/mischievous`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-majestic.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/majestic`
+* [Motivational](./taggingv8-defs-moodadvancedsegmentsv1-properties-motivational.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/motivational`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-powerful.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/powerful`
+* [Mournful](./taggingv8-defs-moodadvancedsegmentsv1-properties-mournful.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/mournful`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-prestigious.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/prestigious`
+* [Mysterious](./taggingv8-defs-charactersegmentsv1-properties-mysterious.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/CharacterSegmentsV1/properties/mysterious`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-relentless.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/relentless`
+* [Mysterious](./taggingv8-defs-moodadvancedsegmentsv1-properties-mysterious.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/mysterious`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-strong.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/strong`
+* [Nervous](./taggingv8-defs-moodadvancedsegmentsv1-properties-nervous.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/nervous`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-triumphant.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/triumphant`
+* [Nightmarish](./taggingv8-defs-moodadvancedsegmentsv1-properties-nightmarish.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/nightmarish`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-victorious.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/victorious`
+* [Noble](./taggingv8-defs-moodadvancedsegmentsv1-properties-noble.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/noble`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-delicate.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/delicate`
+* [Nonrhythmic](./taggingv8-defs-movementsegmentsv1-properties-nonrhythmic.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MovementSegmentsV1/properties/nonrhythmic`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-graceful.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/graceful`
+* [Nostalgic](./taggingv8-defs-moodadvancedsegmentsv1-properties-nostalgic.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/nostalgic`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-hopeful.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/hopeful`
+* [Oboe](./taggingv8-defs-instrumentsegmentsv1-properties-oboe.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/oboe`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-innocent.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/innocent`
+* [Ominous](./taggingv8-defs-moodadvancedsegmentsv1-properties-ominous.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/ominous`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-intimate.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/intimate`
+* [Optimistic](./taggingv8-defs-moodadvancedsegmentsv1-properties-optimistic.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/optimistic`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-kind.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/kind`
+* [Panicstricken](./taggingv8-defs-moodadvancedsegmentsv1-properties-panicstricken.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/panicStricken`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-light.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/light`
+* [Passionate](./taggingv8-defs-moodadvancedsegmentsv1-properties-passionate.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/passionate`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-loving.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/loving`
+* [Peaceful](./taggingv8-defs-moodadvancedsegmentsv1-properties-peaceful.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/peaceful`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-nostalgic.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/nostalgic`
+* [Percussion](./taggingv8-defs-instrumentsegmentsv1-properties-percussion.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/percussion`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-reflective.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/reflective`
+* [Perky](./taggingv8-defs-moodadvancedsegmentsv1-properties-perky.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/perky`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-romantic.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/romantic`
+* [Piano](./taggingv8-defs-instrumentsegmentsv1-properties-piano.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/piano`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-sentimental.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/sentimental`
+* [Pizzicato](./taggingv8-defs-instrumentsegmentsv1-properties-pizzicato.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/pizzicato`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-soft.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/soft`
+* [Playful](./taggingv8-defs-charactersegmentsv1-properties-playful.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/CharacterSegmentsV1/properties/playful`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-sweet.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/sweet`
+* [Playful](./taggingv8-defs-moodadvancedsegmentsv1-properties-playful.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/playful`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-tender.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/tender`
+* [Poignant](./taggingv8-defs-moodadvancedsegmentsv1-properties-poignant.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/poignant`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-warm.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/warm`
+* [Ponderous](./taggingv8-defs-moodadvancedsegmentsv1-properties-ponderous.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/ponderous`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-anthemic.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/anthemic`
+* [Pop](./taggingv8-defs-maingenresegmentsv1-properties-pop.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MaingenreSegmentsV1/properties/pop`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-aweinspiring.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/aweInspiring`
+* [Positive](./taggingv8-defs-moodadvancedsegmentsv1-properties-positive.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/positive`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-euphoric.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/euphoric`
+* [Powerful](./taggingv8-defs-charactersegmentsv1-properties-powerful.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/CharacterSegmentsV1/properties/powerful`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-inspirational.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/inspirational`
+* [Powerful](./taggingv8-defs-moodadvancedsegmentsv1-properties-powerful.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/powerful`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-motivational.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/motivational`
+* [Prestigious](./taggingv8-defs-moodadvancedsegmentsv1-properties-prestigious.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/prestigious`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-optimistic.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/optimistic`
+* [Proud](./taggingv8-defs-moodadvancedsegmentsv1-properties-proud.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/proud`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-positive.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/positive`
+* [Pulsing](./taggingv8-defs-movementsegmentsv1-properties-pulsing.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MovementSegmentsV1/properties/pulsing`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-proud.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/proud`
+* [Quiet](./taggingv8-defs-moodadvancedsegmentsv1-properties-quiet.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/quiet`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-soaring.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/soaring`
+* [Quirky](./taggingv8-defs-moodadvancedsegmentsv1-properties-quirky.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/quirky`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-moodadvanced_v8-properties-segments-properties-uplifting.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/moodAdvanced_v8/properties/segments/properties/uplifting`
+* [Raphiphop](./taggingv8-defs-maingenresegmentsv1-properties-raphiphop.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MaingenreSegmentsV1/properties/rapHipHop`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-character_v8-properties-tags.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/character_v8/properties/tags`
+* [Reflective](./taggingv8-defs-moodadvancedsegmentsv1-properties-reflective.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/reflective`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-character_v8-properties-segments-properties-bold.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/character_v8/properties/segments/properties/bold`
+* [Reggae](./taggingv8-defs-maingenresegmentsv1-properties-reggae.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MaingenreSegmentsV1/properties/reggae`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-character_v8-properties-segments-properties-cool.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/character_v8/properties/segments/properties/cool`
+* [Relaxed](./taggingv8-defs-moodadvancedsegmentsv1-properties-relaxed.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/relaxed`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-character_v8-properties-segments-properties-epic.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/character_v8/properties/segments/properties/epic`
+* [Relentless](./taggingv8-defs-moodadvancedsegmentsv1-properties-relentless.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/relentless`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-character_v8-properties-segments-properties-ethereal.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/character_v8/properties/segments/properties/ethereal`
+* [Resolute](./taggingv8-defs-moodadvancedsegmentsv1-properties-resolute.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/resolute`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-character_v8-properties-segments-properties-heroic.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/character_v8/properties/segments/properties/heroic`
+* [Restless](./taggingv8-defs-moodadvancedsegmentsv1-properties-restless.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/restless`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-character_v8-properties-segments-properties-luxurious.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/character_v8/properties/segments/properties/luxurious`
+* [Retro](./taggingv8-defs-charactersegmentsv1-properties-retro.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/CharacterSegmentsV1/properties/retro`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-character_v8-properties-segments-properties-magical.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/character_v8/properties/segments/properties/magical`
+* [Rnb](./taggingv8-defs-maingenresegmentsv1-properties-rnb.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MaingenreSegmentsV1/properties/rnb`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-character_v8-properties-segments-properties-mysterious.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/character_v8/properties/segments/properties/mysterious`
+* [Robotic](./taggingv8-defs-movementsegmentsv1-properties-robotic.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MovementSegmentsV1/properties/robotic`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-character_v8-properties-segments-properties-playful.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/character_v8/properties/segments/properties/playful`
+* [Rock](./taggingv8-defs-maingenresegmentsv1-properties-rock.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MaingenreSegmentsV1/properties/rock`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-character_v8-properties-segments-properties-powerful.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/character_v8/properties/segments/properties/powerful`
+* [Rollicking](./taggingv8-defs-moodadvancedsegmentsv1-properties-rollicking.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/rollicking`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-character_v8-properties-segments-properties-retro.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/character_v8/properties/segments/properties/retro`
+* [Romantic](./taggingv8-defs-moodadvancedsegmentsv1-properties-romantic.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/romantic`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-character_v8-properties-segments-properties-sophisticated.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/character_v8/properties/segments/properties/sophisticated`
+* [Romantic](./taggingv8-defs-moodsimplesegmentsv1-properties-romantic.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodSimpleSegmentsV1/properties/romantic`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-character_v8-properties-segments-properties-sparkling.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/character_v8/properties/segments/properties/sparkling`
+* [Running](./taggingv8-defs-movementsegmentsv1-properties-running.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MovementSegmentsV1/properties/running`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-character_v8-properties-segments-properties-sparse.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/character_v8/properties/segments/properties/sparse`
+* [Sad](./taggingv8-defs-moodadvancedsegmentsv1-properties-sad.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/sad`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-character_v8-properties-segments-properties-unpolished.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/character_v8/properties/segments/properties/unpolished`
+* [Sad](./taggingv8-defs-moodsimplesegmentsv1-properties-sad.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodSimpleSegmentsV1/properties/sad`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-character_v8-properties-segments-properties-warm.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/character_v8/properties/segments/properties/warm`
+* [Saxophone](./taggingv8-defs-instrumentsegmentsv1-properties-saxophone.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/saxophone`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-movement_v8-properties-tags.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/movement_v8/properties/tags`
+* [Scary](./taggingv8-defs-moodadvancedsegmentsv1-properties-scary.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/scary`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-movement_v8-properties-segments-properties-bouncy.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/movement_v8/properties/segments/properties/bouncy`
+* [Scary](./taggingv8-defs-moodsimplesegmentsv1-properties-scary.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodSimpleSegmentsV1/properties/scary`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-movement_v8-properties-segments-properties-driving.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/movement_v8/properties/segments/properties/driving`
+* [Seductive](./taggingv8-defs-moodadvancedsegmentsv1-properties-seductive.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/seductive`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-movement_v8-properties-segments-properties-flowing.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/movement_v8/properties/segments/properties/flowing`
+* [Segments](./taggingv8-defs-bpmv1-properties-segments.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/BpmV1/properties/segments`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-movement_v8-properties-segments-properties-groovy.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/movement_v8/properties/segments/properties/groovy`
+* [Segments](./taggingv8-defs-keyv1-properties-segments.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/KeyV1/properties/segments`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-movement_v8-properties-segments-properties-nonrhythmic.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/movement_v8/properties/segments/properties/nonrhythmic`
+* [Segmentsrange](./taggingv8-defs-bpmv1-properties-segmentsrange.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/BpmV1/properties/segmentsRange`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-movement_v8-properties-segments-properties-pulsing.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/movement_v8/properties/segments/properties/pulsing`
+* [Sentimental](./taggingv8-defs-moodadvancedsegmentsv1-properties-sentimental.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/sentimental`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-movement_v8-properties-segments-properties-robotic.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/movement_v8/properties/segments/properties/robotic`
+* [Serene](./taggingv8-defs-moodadvancedsegmentsv1-properties-serene.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/serene`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-movement_v8-properties-segments-properties-running.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/movement_v8/properties/segments/properties/running`
+* [Serious](./taggingv8-defs-moodadvancedsegmentsv1-properties-serious.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/serious`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-movement_v8-properties-segments-properties-steady.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/movement_v8/properties/segments/properties/steady`
+* [Sexy](./taggingv8-defs-moodadvancedsegmentsv1-properties-sexy.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/sexy`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-movement_v8-properties-segments-properties-stomping.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/movement_v8/properties/segments/properties/stomping`
+* [Sexy](./taggingv8-defs-moodsimplesegmentsv1-properties-sexy.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodSimpleSegmentsV1/properties/sexy`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-instruments_v8-properties-tags.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/instruments_v8/properties/tags`
+* [Singersongwriter](./taggingv8-defs-maingenresegmentsv1-properties-singersongwriter.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MaingenreSegmentsV1/properties/singerSongwriter`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-instruments_v8-properties-segments-properties-acousticguitar.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/instruments_v8/properties/segments/properties/acousticGuitar`
+* [Sitar](./taggingv8-defs-instrumentsegmentsv1-properties-sitar.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/sitar`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-instruments_v8-properties-segments-properties-bass.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/instruments_v8/properties/segments/properties/bass`
+* [Soaring](./taggingv8-defs-moodadvancedsegmentsv1-properties-soaring.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/soaring`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-instruments_v8-properties-segments-properties-bassguitar.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/instruments_v8/properties/segments/properties/bassGuitar`
+* [Soft](./taggingv8-defs-moodadvancedsegmentsv1-properties-soft.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/soft`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-instruments_v8-properties-segments-properties-brass.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/instruments_v8/properties/segments/properties/brass`
+* [Solemn](./taggingv8-defs-moodadvancedsegmentsv1-properties-solemn.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/solemn`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-instruments_v8-properties-segments-properties-woodwinds.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/instruments_v8/properties/segments/properties/woodwinds`
+* [Soothing](./taggingv8-defs-moodadvancedsegmentsv1-properties-soothing.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/soothing`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-instruments_v8-properties-segments-properties-electricguitar.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/instruments_v8/properties/segments/properties/electricGuitar`
+* [Sophisticated](./taggingv8-defs-charactersegmentsv1-properties-sophisticated.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/CharacterSegmentsV1/properties/sophisticated`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-instruments_v8-properties-segments-properties-percussion.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/instruments_v8/properties/segments/properties/percussion`
+* [Sound](./taggingv8-defs-maingenresegmentsv1-properties-sound.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MaingenreSegmentsV1/properties/sound`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-instruments_v8-properties-segments-properties-piano.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/instruments_v8/properties/segments/properties/piano`
+* [Soundtrack](./taggingv8-defs-maingenresegmentsv1-properties-soundtrack.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MaingenreSegmentsV1/properties/soundtrack`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-instruments_v8-properties-segments-properties-strings.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/instruments_v8/properties/segments/properties/strings`
+* [Sparkling](./taggingv8-defs-charactersegmentsv1-properties-sparkling.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/CharacterSegmentsV1/properties/sparkling`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-instruments_v8-properties-segments-properties-synth.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/instruments_v8/properties/segments/properties/synth`
+* [Sparse](./taggingv8-defs-charactersegmentsv1-properties-sparse.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/CharacterSegmentsV1/properties/sparse`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-voice_v8-properties-tags.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/voice_v8/properties/tags`
+* [Spiritual](./taggingv8-defs-moodadvancedsegmentsv1-properties-spiritual.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/spiritual`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-voice_v8-properties-segments-properties-female.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/voice_v8/properties/segments/properties/female`
+* [Spokenword](./taggingv8-defs-maingenresegmentsv1-properties-spokenword.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MaingenreSegmentsV1/properties/spokenWord`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-voice_v8-properties-segments-properties-instrumental.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/voice_v8/properties/segments/properties/instrumental`
+* [Spooky](./taggingv8-defs-moodadvancedsegmentsv1-properties-spooky.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/spooky`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-voice_v8-properties-segments-properties-male.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/voice_v8/properties/segments/properties/male`
+* [Steady](./taggingv8-defs-movementsegmentsv1-properties-steady.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MovementSegmentsV1/properties/steady`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-valencearousal_v8-properties-segments-properties-valence.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/valenceArousal_v8/properties/segments/properties/valence`
+* [Steeldrums](./taggingv8-defs-instrumentsegmentsv1-properties-steeldrums.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/steelDrums`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-valencearousal_v8-properties-segments-properties-arousal.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/valenceArousal_v8/properties/segments/properties/arousal`
+* [Stomping](./taggingv8-defs-movementsegmentsv1-properties-stomping.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MovementSegmentsV1/properties/stomping`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-analysis-properties-transformergenretags_v1-properties-tags.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/analysis/properties/transformerGenreTags_v1/properties/tags`
+* [Strange](./taggingv8-defs-moodadvancedsegmentsv1-properties-strange.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/strange`
 
-*   [Untitled array in marketplace\_v1](./marketplace_v1-properties-timestamps.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/marketplace_v1.schema.json#/properties/timestamps`
+* [Strings](./taggingv8-defs-instrumentsegmentsv1-properties-strings.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/strings`
 
-## Version Note
+* [Strong](./taggingv8-defs-moodadvancedsegmentsv1-properties-strong.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/strong`
 
-The schemas linked above follow the JSON Schema Spec version: `http://json-schema.org/draft-04/schema#`
+* [Supernatural](./taggingv8-defs-moodadvancedsegmentsv1-properties-supernatural.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/supernatural`
+
+* [Suspenseful](./taggingv8-defs-moodadvancedsegmentsv1-properties-suspenseful.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/suspenseful`
+
+* [Sweet](./taggingv8-defs-moodadvancedsegmentsv1-properties-sweet.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/sweet`
+
+* [Synth](./taggingv8-defs-instrumentsegmentsv1-properties-synth.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/synth`
+
+* [Tabla](./taggingv8-defs-instrumentsegmentsv1-properties-tabla.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/tabla`
+
+* [Tags](./taggingv8-defs-freegenrev2-properties-tags.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/FreeGenreV2/properties/tags`
+
+* [Tags](./taggingv8-defs-instrumentv1-properties-tags.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentV1/properties/tags`
+
+* [Tags](./taggingv8-defs-movementv1-properties-tags.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MovementV1/properties/tags`
+
+* [Taiko](./taggingv8-defs-instrumentsegmentsv1-properties-taiko.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/taiko`
+
+* [Tender](./taggingv8-defs-moodadvancedsegmentsv1-properties-tender.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/tender`
+
+* [Tense](./taggingv8-defs-moodadvancedsegmentsv1-properties-tense.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/tense`
+
+* [Thoughtful](./taggingv8-defs-moodadvancedsegmentsv1-properties-thoughtful.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/thoughtful`
+
+* [Timestamps](./taggingv8-defs-timestamps15sv1-properties-timestamps.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/Timestamps15sV1/properties/timestamps`
+
+* [Tranquil](./taggingv8-defs-moodadvancedsegmentsv1-properties-tranquil.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/tranquil`
+
+* [Triumphant](./taggingv8-defs-moodadvancedsegmentsv1-properties-triumphant.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/triumphant`
+
+* [Trumpet](./taggingv8-defs-instrumentsegmentsv1-properties-trumpet.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/trumpet`
+
+* [Tuba](./taggingv8-defs-instrumentsegmentsv1-properties-tuba.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/tuba`
+
+* [Ukulele](./taggingv8-defs-instrumentsegmentsv1-properties-ukulele.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/ukulele`
+
+* [Unpolished](./taggingv8-defs-charactersegmentsv1-properties-unpolished.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/CharacterSegmentsV1/properties/unpolished`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-characterv1-properties-tags-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/CharacterV1/properties/tags/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-maingenrev1-properties-tags-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MaingenreV1/properties/tags/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-moodadvancedv1-properties-tags-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedV1/properties/tags/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-moodsimplev1-properties-tags-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodSimpleV1/properties/tags/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-abstractidm-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/abstractIdm/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-breakbeatdnb-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/breakbeatDnb/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-deephouse-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/deepHouse/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-electro-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/electro/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-house-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/house/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-minimal-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/minimal/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-synthpop-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/synthPop/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-techhouse-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/techHouse/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-techno-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/techno/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-trance-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/trance/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-medieval-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/medieval/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-renaissance-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/renaissance/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-baroque-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/baroque/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-classical-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/classical/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-romantic-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/romantic/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-contemporary-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/contemporary/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-bluesrock-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/bluesRock/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-folkrock-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/folkRock/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-hardrock-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/hardRock/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-indiealternative-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/indieAlternative/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-psychedelicprogrock-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/psychedelicProgRock/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-punk-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/punk/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-rockandroll-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/rockAndRoll/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-softrock-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/softRock/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-contemporaryrnb-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/contemporaryRnb/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-gangsta-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/gangsta/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-jazzyhiphop-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/jazzyHipHop/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-poprap-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/popRap/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-trap-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/trap/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-blackmetal-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/blackMetal/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-deathmetal-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/deathMetal/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-doommetal-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/doomMetal/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-heavymetal-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/heavyMetal/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-metalcore-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/metalcore/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-numetal-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/nuMetal/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-disco-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/disco/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-funk-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/funk/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-gospel-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/gospel/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-neosoul-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/neoSoul/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-soul-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/soul/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-bigbandswing-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/bigBandSwing/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-bop-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/bop/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-contemporaryjazz-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/contemporaryJazz/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-easylistening-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/easyListening/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-fusion-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/fusion/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-latinjazz-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/latinJazz/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-smoothjazz-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/smoothJazz/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-country-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/country/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenresegmentsv1-properties-folk-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreSegmentsV1/properties/folk/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-subgenrev1-properties-tags-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/SubgenreV1/properties/tags/anyOf/0`
+
+* [Untitled array in TaggingV8](./taggingv8-defs-vocalv1-properties-tags-anyof-0.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/VocalV1/properties/tags/anyOf/0`
+
+* [Upbeat](./taggingv8-defs-moodadvancedsegmentsv1-properties-upbeat.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/upbeat`
+
+* [Uplifting](./taggingv8-defs-moodadvancedsegmentsv1-properties-uplifting.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/uplifting`
+
+* [Uplifting](./taggingv8-defs-moodsimplesegmentsv1-properties-uplifting.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodSimpleSegmentsV1/properties/uplifting`
+
+* [Valence](./taggingv8-defs-valencearousalsegmentsv1-properties-valence.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/ValenceArousalSegmentsV1/properties/valence`
+
+* [Vibraphone](./taggingv8-defs-instrumentsegmentsv1-properties-vibraphone.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/vibraphone`
+
+* [Victorious](./taggingv8-defs-moodadvancedsegmentsv1-properties-victorious.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/victorious`
+
+* [Violent](./taggingv8-defs-moodadvancedsegmentsv1-properties-violent.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/violent`
+
+* [Violin](./taggingv8-defs-instrumentsegmentsv1-properties-violin.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/violin`
+
+* [Warm](./taggingv8-defs-charactersegmentsv1-properties-warm.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/CharacterSegmentsV1/properties/warm`
+
+* [Warm](./taggingv8-defs-moodadvancedsegmentsv1-properties-warm.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/warm`
+
+* [Weird](./taggingv8-defs-moodadvancedsegmentsv1-properties-weird.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/weird`
+
+* [Whimsical](./taggingv8-defs-moodadvancedsegmentsv1-properties-whimsical.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/MoodAdvancedSegmentsV1/properties/whimsical`
+
+* [Woodwinds](./taggingv8-defs-instrumentsegmentsv1-properties-woodwinds.md) – `https://github.com/cyanite-ai/aws-marketplace/blob/main/audio_analyzer/schemes/marketplace_v1/schema/TaggingV8.schema.json#/$defs/InstrumentSegmentsV1/properties/woodwinds`

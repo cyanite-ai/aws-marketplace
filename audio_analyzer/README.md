@@ -63,7 +63,7 @@ The container returns json-formatted output.
 
 | Version | Raw Schema | Documentation | Example Output
 | :--- | :--- | :--- | :--- |
-| marketplace_v1 | [here](schemes/marketplace_v1/schema/TaggingV8.schema.json) | [here](schemes/marketplace_v1/documentation/TaggingV8.md) | [here](schemes/marketplace_v1/example/tagging_v8_example_output.json) |
+| marketplace_v1 | [here](schemes/marketplace_v1/schema/TaggingV8.schema.json) | [here](schemes/marketplace_v1/documentation/README.md) | [here](schemes/marketplace_v1/example/tagging_v8_example_output.json) |
 
 ___
 <a name="runtime"></a>

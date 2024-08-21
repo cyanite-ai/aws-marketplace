@@ -45,7 +45,9 @@ __Important__:
 
 For more information on deployment, please refer to the [SageMaker Documentation](https://docs.aws.amazon.com/sagemaker/latest/dg/deploy-model.html).
 
-The Audio Analyzer supports a variety of file formats: `mp3`, `wav`, `m4a`, `mp4` and `mpga`. Audio can either be mono or stereo and should have at least a bitrate of 128kbit/s for MP3 files or comparable for other formats. Audio files should not exceed a length of 15 minutes. For longer tracks, the analysis will be rejected.  
+The Audio Analyzer supports a variety of file formats: `mp3`, `wav`, `m4a`, `mp4` and `mpga`. Audio can either be mono or stereo and should have at least a bitrate of 128kbit/s for MP3 files or comparable for other formats. 
+
+Audio files should not exceed a length of 15 minutes. For longer tracks, the analysis will be rejected. This behaviour can be overridden by setting the environment variable `MAX_TRACK_DURATION` (in seconds) to a different value. Be aware that changing this variable might lead to out of memory issues.
 
 Calling the server is done via REST. We recommend using the [SageMaker Python SDK](https://sagemaker.readthedocs.io) for handling invocations.
 Audio data is expected to be send as binary data within the data field of a POST request. The accepted content type is `audio/mpeg`.
